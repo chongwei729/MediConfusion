@@ -1,0 +1,16 @@
+Starting job on cn2102 at Sun Nov  3 14:04:32 CST 2024
+<class 'utils.answering.GPTAnswering'>
+
+
+Category          Total      Set acc.   Individual acc.   Confused acc.   Valid pairs     Invalid acc.    Precision       Precision total
+Cerebral          79         24.05      56.96             65.28           72              5.06            76.0            25             
+Vascular          73         31.51      63.01             63.01           73              0.0             85.19           27             
+Head and Neck     67         13.43      55.22             74.14           58              7.46            60.0            15             
+Spinal            51         19.61      50.98             70.0            40              15.69           83.33           12             
+Musculoskeletal   42         4.76       47.62             89.19           37              4.76            50.0            4              
+Cardiac           52         15.38      53.85             75.0            40              11.54           80.0            10             
+Gastrointestinal  43         11.63      48.84             81.08           37              6.98            71.43           7              
+Pulmonary         20         10.0       45.0              75.0            20              0.0             40.0            5              
+Nuclear Medicine  14         0.0        50.0              100.0           14              0.0             0               0              
+All               176        17.05      53.69             74.36           156             5.97            75.0            40             
+Job finished with exit code 0 at: Sun Nov  3 14:14:01 CST 2024

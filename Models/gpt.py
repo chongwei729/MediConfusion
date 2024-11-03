@@ -1,43 +1,54 @@
 import os
 import base64
-from openai import AzureOpenAI
+import openai 
 from dotenv import load_dotenv
+from openai import OpenAI
+
+
 
 def get_client(max_retries=2, timeout=10):
     load_dotenv()
-    client = AzureOpenAI(api_key=os.getenv("AZURE_OPENAI_API_KEY"),
-                         api_version="2024-02-01",
-                         azure_endpoint = os.getenv("AZURE_OPENAI_ENDPOINT"),
-                         max_retries=max_retries,
-                         timeout=timeout,
-                         )
+    openai.api_key = os.getenv("OPENAI_API_KEY")
+    client = OpenAI()
 
     return client
 
 def get_response(client, deployment_name, init_prompt, prompt, temperature, max_retry=3, print_error=False):
     counter = max_retry
-    response = None
+    response_text = None
+    first_logprob = None
+
     while counter > 0:
         try:
-            response = client.chat.completions.create(model=deployment_name,
-                                                    messages=[
-                                                        {"role": "system", "content": init_prompt},
-                                                        {"role": "user", "content": prompt},
-                                                        ],
-                                                    temperature=temperature,
-                                                    )
-            response = response.choices[0].message.content
-            break
+            response = client.chat.completions.create(
+                model=deployment_name,
+                messages=[
+                    {"role": "system", "content": init_prompt},
+                    {"role": "user", "content": prompt},
+                ],
+                temperature=temperature,
+                logprobs=True,
+                top_logprobs=3,
+            )
+
+            response_text = response.choices[0].message.content
+
+            if response.choices[0].logprobs and response.choices[0].logprobs.content:
+                first_token_logprob_info = response.choices[0].logprobs.content[0]
+                first_logprob = first_token_logprob_info.logprob  
+
+            break  
         except Exception as e:
             if print_error:
                 print(e)
-            counter -= 1
-    return response
+            counter -= 1  
+
+    return response_text, first_logprob
+
 
 def encode_image(image_path):
   with open(image_path, "rb") as image_file:
     return base64.b64encode(image_file.read()).decode('utf-8')
- 
 
 def ask_question(client, image_path, question, init_prompt, deployment_name, temperature):
     base64_image = encode_image(image_path)
@@ -51,10 +62,10 @@ def ask_question(client, image_path, question, init_prompt, deployment_name, tem
             }
         }
     ]
-    response = get_response(client=client,
-                                deployment_name=deployment_name, 
+    response, logprob = get_response(client=client,
+                                deployment_name='gpt-4o', 
                                 init_prompt=init_prompt, 
-                                prompt=content, 
+                                prompt=content,
                                 temperature=temperature)
 
-    return response
+    return response, logprob

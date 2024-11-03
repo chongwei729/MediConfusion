@@ -5,6 +5,7 @@ from tqdm import tqdm
 from PIL import Image
 from utils import io_tools
 from transformers import set_seed, logging
+import csv
 
 
 os.environ["TOKENIZERS_PARALLELISM"] = "true"
@@ -83,7 +84,54 @@ class BaseAnsweringModel():
         self.print_score(score)
         if save_path is not None:
             io_tools.save_json(score, f'{save_path}/{self.key}_{self.mode}_score.json')
+            self.save_to_csv(results)
         return results, score
+
+    def save_to_csv(self, results, csv_path='experiment_result.csv'):
+        fieldnames = [
+        "id", "im_1", "im_2", "question", "options", 
+        "im_1_groundtruth", "im_2_groundtruth",
+        "im_1_gpt4o_correct", "im_2_gpt4o_correct", "set_gpt4o_correct", 
+        "im_1_gpt4o_logprob", "im_2_gpt4o_logprob"
+        ]
+        with open(csv_path, mode='w', newline='', encoding='utf-8') as file:
+            writer = csv.DictWriter(file, fieldnames=fieldnames)
+            writer.writeheader() 
+            for id, result in results.items():
+                
+                sample = DATA.get(id)
+                im1_filename = f"{self.data_path}/{sample.get('im_1_local')}.jpg" if self.local_image_address else f"{self.data_path}/roco-dataset/data/{sample.get('im_1')}"
+                im2_filename = f"{self.data_path}/{sample.get('im_2_local')}.jpg" if self.local_image_address else f"{self.data_path}/roco-dataset/data/{sample.get('im_2')}"
+                question = sample.get("question")
+                options = f"(A) {sample.get('option_A')} (B) {sample.get('option_B')}"
+                im1_groundtruth = sample.get("im_1_correct")
+                im2_groundtruth = sample.get("im_2_correct")
+                
+            
+                im1_correct = result["score"].get("individual_score").get("Cerebral", 0)  
+                im2_correct = result["score"].get("individual_score").get("Cerebral", 0)  
+                set_correct = 1 if im1_correct == 1 and im2_correct == 1 else 0
+
+    
+                im1_logprob = result["answer"]["im1"].get("logprob", None)  
+                im2_logprob = result["answer"]["im2"].get("logprob", None)  
+
+
+                writer.writerow({
+                    "id": id,
+                    "im_1": im1_filename,
+                    "im_2": im2_filename,
+                    "question": question,
+                    "options": options,
+                    "im_1_groundtruth": im1_groundtruth,
+                    "im_2_groundtruth": im2_groundtruth,
+                    "im_1_gpt4o_correct": im1_correct,
+                    "im_2_gpt4o_correct": im2_correct,
+                    "set_gpt4o_correct": set_correct,
+                    "im_1_gpt4o_logprob": im1_logprob,
+                    "im_2_gpt4o_logprob": im2_logprob,
+                })
+
     
     def sample_eval(self, sample):
         if self.local_image_address:
@@ -95,9 +143,9 @@ class BaseAnsweringModel():
         options = [sample.get('option_A'), sample.get('option_B')]
         im1_ans = sample.get('im_1_correct')
         im2_ans = sample.get('im_2_correct')
-        responses = self.ask_question(question, options, image_list)
-        ans_dict = {'im1': self.clean_up(question, options, responses[0]), 
-                    'im2': self.clean_up(question, options, responses[1])}
+        responses, logprobs = self.ask_question(question, options, image_list)
+        ans_dict = {'im1': {'answer': self.clean_up(question, options, responses[0]), 'logprob': logprobs[0] if logprobs else None}, 
+                    'im2': {'answer': self.clean_up(question, options, responses[1]), 'logprob': logprobs[1] if logprobs else None}}
         im1_correct, im1_invalid, im2_correct, im2_invalid, confused = self.get_score(ans_dict, im1_ans, im2_ans)
         scores = self.create_score_table(sample.get('category_1'), 
                                          sample.get('category_2'), 
@@ -121,13 +169,13 @@ class BaseAnsweringModel():
 
     def get_score(self, ans_dict, im1_ans, im2_ans):
         im1_correct, c1 = self.check_answer(im1_ans, 
-                                            ans_dict.get('im1').get('A'), 
-                                            ans_dict.get('im1').get('B'), 
+                                            ans_dict.get('im1').get('answer').get('A'), 
+                                            ans_dict.get('im1').get('answer').get('B'), 
                                             self.tr)
         invalid1 = (c1 == '-')
         im2_correct, c2 = self.check_answer(im2_ans, 
-                                            ans_dict.get('im2').get('A'), 
-                                            ans_dict.get('im2').get('B'), 
+                                            ans_dict.get('im2').get('answer').get('A'), 
+                                            ans_dict.get('im2').get('answer').get('B'), 
                                             self.tr)
         invalid2 = (c2 == '-')
         confused = 1 * ((c1 == c2) and (c1 != '-'))
@@ -137,12 +185,13 @@ class BaseAnsweringModel():
     def clean_up_gpt(self, question, options, answer):
         client = gpt.get_client()
         prompt = self.get_clean_up_prompt(question, options, answer)
-        response = gpt.get_response(client=client,
+        response, logprob = gpt.get_response(client=client,
                                     deployment_name=self.conversion.get('gpt_deployment_name'),
                                     init_prompt=self.conversion.get('init_prompt'),
                                     prompt=prompt,
                                     temperature=float(self.conversion.get('temperature')),
                                     )
+
         ans = self.process_gpt_response(response)
         ans['full_answer'] = answer
         return ans
@@ -338,10 +387,12 @@ class GPTAnswering(BaseAnsweringModel):
     def ask_question(self, question, options, image_list):
         qs = super().ask_question(question, options, image_list)
         response_list = []
+        log_prob_list = []
         for image in image_list:
-            response = gpt.ask_question(self.client, image, qs, self.init_prompt, self.deployment_name, self.temperature)
+            response, logprob = gpt.ask_question(self.client, image, qs, self.init_prompt, self.deployment_name, self.temperature)
             response_list.append(response)
-        return response_list
+            log_prob_list.append(logprob)
+        return response_list, log_prob_list
     
 class ClaudeAnswering(BaseAnsweringModel):
 

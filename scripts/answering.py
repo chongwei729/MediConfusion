@@ -32,3 +32,4 @@ if __name__ == "__main__":
 
     ans_obj = answering_class(args.model_args_path, args.mode, args.data_path, args.local_image_address, args.tr, args.device)
     ans_obj.evaluate(args.resume_path, save_path)
+    
