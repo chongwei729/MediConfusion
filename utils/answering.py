@@ -83,11 +83,13 @@ class BaseAnsweringModel():
                 io_tools.save_json(results, f'{save_path}/{self.key}_{self.mode}.json')
         self.print_score(score)
         if save_path is not None:
+
             io_tools.save_json(score, f'{save_path}/{self.key}_{self.mode}_score.json')
-            self.save_to_csv(results)
+     
+            self.save_to_csv(results, sample)
         return results, score
 
-    def save_to_csv(self, results, csv_path='experiment_result.csv'):
+    def save_to_csv(self, results, sample, csv_path='experiment_result.csv'):
         fieldnames = [
         "id", "im_1", "im_2", "question", "options", 
         "im_1_groundtruth", "im_2_groundtruth",
@@ -107,9 +109,7 @@ class BaseAnsweringModel():
                 im1_groundtruth = sample.get("im_1_correct")
                 im2_groundtruth = sample.get("im_2_correct")
                 
-            
-                im1_correct = result["score"].get("individual_score").get("Cerebral", 0)  
-                im2_correct = result["score"].get("individual_score").get("Cerebral", 0)  
+                im1_correct, im1_invalid, im2_correct, im2_invalid, confused = self.get_score(result['answer'], im1_groundtruth, im2_groundtruth)
                 set_correct = 1 if im1_correct == 1 and im2_correct == 1 else 0
 
     

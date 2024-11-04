@@ -7,43 +7,19 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.09152318
+                "logprob": -0.2711041
             },
             "im2": {
                 "answer": {
-                    "full_answer": "A",
-                    "A": 10,
-                    "B": 0
+                    "full_answer": "B",
+                    "A": 0,
+                    "B": 10
                 },
-                "logprob": -0.60662013
+                "logprob": -0.613679
             }
         },
         "score": {
             "set_score": {
-                "Cerebral": 0,
-                "Vascular": 0,
-                "Head and Neck": 0,
-                "Spinal": 0,
-                "Musculoskeletal": 0,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 0
-            },
-            "individual_score": {
-                "Cerebral": 1,
-                "Vascular": 1,
-                "Head and Neck": 0,
-                "Spinal": 0,
-                "Musculoskeletal": 0,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 1
-            },
-            "confused": {
                 "Cerebral": 2,
                 "Vascular": 2,
                 "Head and Neck": 0,
@@ -54,6 +30,30 @@
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
                 "total": 1
+            },
+            "individual_score": {
+                "Cerebral": 2,
+                "Vascular": 2,
+                "Head and Neck": 0,
+                "Spinal": 0,
+                "Musculoskeletal": 0,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 2
+            },
+            "confused": {
+                "Cerebral": 0,
+                "Vascular": 0,
+                "Head and Neck": 0,
+                "Spinal": 0,
+                "Musculoskeletal": 0,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 0
             },
             "invalid": {
                 "Cerebral": 0,
@@ -80,8 +80,8 @@
                 "total": 1
             },
             "valid_pairs": {
-                "Cerebral": 0,
-                "Vascular": 0,
+                "Cerebral": 2,
+                "Vascular": 2,
                 "Head and Neck": 0,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
@@ -89,7 +89,7 @@
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 0
+                "total": 1
             }
         }
     },
@@ -101,7 +101,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.3891266
+                "logprob": -0.17022443
             },
             "im2": {
                 "answer": {
@@ -109,7 +109,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.3511938
+                "logprob": -0.38829806
             }
         },
         "score": {
@@ -195,7 +195,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.011791966
+                "logprob": -0.08444208
             },
             "im2": {
                 "answer": {
@@ -203,7 +203,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.07095344
+                "logprob": -0.063784756
             }
         },
         "score": {
@@ -289,7 +289,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.00023941702
+                "logprob": -9.209964e-05
             },
             "im2": {
                 "answer": {
@@ -297,7 +297,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -7.822647e-06
+                "logprob": -5.800739e-05
             }
         },
         "score": {
@@ -383,7 +383,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.023264114
+                "logprob": -0.2524387
             },
             "im2": {
                 "answer": {
@@ -391,7 +391,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.00063332834
+                "logprob": -0.0008777546
             }
         },
         "score": {
@@ -477,7 +477,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -2.1650272e-05
+                "logprob": -7.703444e-06
             },
             "im2": {
                 "answer": {
@@ -485,7 +485,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.0052738385
+                "logprob": -0.02343228
             }
         },
         "score": {
@@ -571,7 +571,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.00076781755
+                "logprob": -0.00045962472
             },
             "im2": {
                 "answer": {
@@ -579,7 +579,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.00047678637
+                "logprob": -0.003442546
             }
         },
         "score": {
@@ -665,7 +665,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.007256135
+                "logprob": -0.005275857
             },
             "im2": {
                 "answer": {
@@ -673,7 +673,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.25246212
+                "logprob": -0.7668469
             }
         },
         "score": {
@@ -755,11 +755,11 @@
         "answer": {
             "im1": {
                 "answer": {
-                    "full_answer": "B",
-                    "A": 0,
-                    "B": 10
+                    "full_answer": "A",
+                    "A": 10,
+                    "B": 0
                 },
-                "logprob": -0.6698351
+                "logprob": -0.38808388
             },
             "im2": {
                 "answer": {
@@ -767,35 +767,11 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.14856671
+                "logprob": -0.26708022
             }
         },
         "score": {
             "set_score": {
-                "Cerebral": 0,
-                "Vascular": 0,
-                "Head and Neck": 0,
-                "Spinal": 0,
-                "Musculoskeletal": 0,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 0
-            },
-            "individual_score": {
-                "Cerebral": 1,
-                "Vascular": 0,
-                "Head and Neck": 1,
-                "Spinal": 1,
-                "Musculoskeletal": 0,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 1
-            },
-            "confused": {
                 "Cerebral": 2,
                 "Vascular": 0,
                 "Head and Neck": 1,
@@ -806,6 +782,30 @@
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
                 "total": 1
+            },
+            "individual_score": {
+                "Cerebral": 2,
+                "Vascular": 0,
+                "Head and Neck": 1,
+                "Spinal": 1,
+                "Musculoskeletal": 0,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 2
+            },
+            "confused": {
+                "Cerebral": 0,
+                "Vascular": 0,
+                "Head and Neck": 0,
+                "Spinal": 0,
+                "Musculoskeletal": 0,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 0
             },
             "invalid": {
                 "Cerebral": 0,
@@ -832,16 +832,16 @@
                 "total": 1
             },
             "valid_pairs": {
-                "Cerebral": 0,
+                "Cerebral": 2,
                 "Vascular": 0,
-                "Head and Neck": 0,
-                "Spinal": 0,
+                "Head and Neck": 1,
+                "Spinal": 1,
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 0
+                "total": 1
             }
         }
     },
@@ -853,7 +853,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.0071137566
+                "logprob": -0.0060939807
             },
             "im2": {
                 "answer": {
@@ -861,7 +861,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.11057813
+                "logprob": -0.061139554
             }
         },
         "score": {
@@ -947,7 +947,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.3572168
+                "logprob": -0.24894781
             },
             "im2": {
                 "answer": {
@@ -955,7 +955,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.20349708
+                "logprob": -0.005369649
             }
         },
         "score": {
@@ -1041,7 +1041,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.39271888
+                "logprob": -0.019242616
             },
             "im2": {
                 "answer": {
@@ -1049,7 +1049,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.00022690064
+                "logprob": -0.002639868
             }
         },
         "score": {
@@ -1135,7 +1135,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.00011951648
+                "logprob": -7.0285365e-05
             },
             "im2": {
                 "answer": {
@@ -1143,7 +1143,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.000493341
+                "logprob": -0.0002224901
             }
         },
         "score": {
@@ -1229,7 +1229,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.029848954
+                "logprob": -0.011807748
             },
             "im2": {
                 "answer": {
@@ -1237,7 +1237,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.12890308
+                "logprob": -0.0789376
             }
         },
         "score": {
@@ -1319,11 +1319,11 @@
         "answer": {
             "im1": {
                 "answer": {
-                    "full_answer": "A",
-                    "A": 10,
+                    "full_answer": "I'm unable to view or interpret images directly. Please consult a medical professional for an accurate assessment.",
+                    "A": 0,
                     "B": 0
                 },
-                "logprob": -0.25406745
+                "logprob": -0.11380814
             },
             "im2": {
                 "answer": {
@@ -1331,33 +1331,33 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.023602871
+                "logprob": -0.11058037
             }
         },
         "score": {
             "set_score": {
-                "Cerebral": 2,
+                "Cerebral": 0,
                 "Vascular": 0,
-                "Head and Neck": 2,
-                "Spinal": 1,
+                "Head and Neck": 0,
+                "Spinal": 0,
+                "Musculoskeletal": 0,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 0
+            },
+            "individual_score": {
+                "Cerebral": 1,
+                "Vascular": 0,
+                "Head and Neck": 1,
+                "Spinal": 0,
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
                 "total": 1
-            },
-            "individual_score": {
-                "Cerebral": 2,
-                "Vascular": 0,
-                "Head and Neck": 2,
-                "Spinal": 1,
-                "Musculoskeletal": 0,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 2
             },
             "confused": {
                 "Cerebral": 0,
@@ -1372,6 +1372,18 @@
                 "total": 0
             },
             "invalid": {
+                "Cerebral": 1,
+                "Vascular": 0,
+                "Head and Neck": 1,
+                "Spinal": 1,
+                "Musculoskeletal": 0,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 1
+            },
+            "valids": {
                 "Cerebral": 0,
                 "Vascular": 0,
                 "Head and Neck": 0,
@@ -1383,29 +1395,17 @@
                 "Nuclear Medicine": 0,
                 "total": 0
             },
-            "valids": {
-                "Cerebral": 2,
-                "Vascular": 0,
-                "Head and Neck": 2,
-                "Spinal": 1,
-                "Musculoskeletal": 0,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 1
-            },
             "valid_pairs": {
-                "Cerebral": 2,
+                "Cerebral": 0,
                 "Vascular": 0,
-                "Head and Neck": 2,
-                "Spinal": 1,
+                "Head and Neck": 0,
+                "Spinal": 0,
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 1
+                "total": 0
             }
         }
     },
@@ -1417,7 +1417,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.0013326213
+                "logprob": -0.001951826
             },
             "im2": {
                 "answer": {
@@ -1425,7 +1425,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.3217942
+                "logprob": -0.25899965
             }
         },
         "score": {
@@ -1511,7 +1511,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.70487535
+                "logprob": -0.70487523
             },
             "im2": {
                 "answer": {
@@ -1519,7 +1519,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.018565198
+                "logprob": -0.0067992103
             }
         },
         "score": {
@@ -1601,11 +1601,11 @@
         "answer": {
             "im1": {
                 "answer": {
-                    "full_answer": "A",
-                    "A": 10,
-                    "B": 0
+                    "full_answer": "B",
+                    "A": 0,
+                    "B": 10
                 },
-                "logprob": -0.69345236
+                "logprob": -0.25298747
             },
             "im2": {
                 "answer": {
@@ -1613,35 +1613,11 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.39293572
+                "logprob": -0.049772296
             }
         },
         "score": {
             "set_score": {
-                "Cerebral": 2,
-                "Vascular": 2,
-                "Head and Neck": 0,
-                "Spinal": 0,
-                "Musculoskeletal": 0,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 1
-            },
-            "individual_score": {
-                "Cerebral": 2,
-                "Vascular": 2,
-                "Head and Neck": 0,
-                "Spinal": 0,
-                "Musculoskeletal": 0,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 2
-            },
-            "confused": {
                 "Cerebral": 0,
                 "Vascular": 0,
                 "Head and Neck": 0,
@@ -1652,6 +1628,30 @@
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
                 "total": 0
+            },
+            "individual_score": {
+                "Cerebral": 1,
+                "Vascular": 1,
+                "Head and Neck": 0,
+                "Spinal": 0,
+                "Musculoskeletal": 0,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 1
+            },
+            "confused": {
+                "Cerebral": 2,
+                "Vascular": 2,
+                "Head and Neck": 0,
+                "Spinal": 0,
+                "Musculoskeletal": 0,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 1
             },
             "invalid": {
                 "Cerebral": 0,
@@ -1678,8 +1678,8 @@
                 "total": 1
             },
             "valid_pairs": {
-                "Cerebral": 2,
-                "Vascular": 2,
+                "Cerebral": 0,
+                "Vascular": 0,
                 "Head and Neck": 0,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
@@ -1687,7 +1687,7 @@
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 1
+                "total": 0
             }
         }
     },
@@ -1699,7 +1699,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.030747658
+                "logprob": -0.1860642
             },
             "im2": {
                 "answer": {
@@ -1707,7 +1707,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.0009499297
+                "logprob": -0.00011009939
             }
         },
         "score": {
@@ -1793,7 +1793,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.029906802
+                "logprob": -0.055531036
             },
             "im2": {
                 "answer": {
@@ -1801,7 +1801,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.00021116942
+                "logprob": -0.002761368
             }
         },
         "score": {
@@ -1887,7 +1887,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -1.7597347e-05
+                "logprob": -9.4914985e-06
             },
             "im2": {
                 "answer": {
@@ -1895,7 +1895,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.0007835415
+                "logprob": -0.08151152
             }
         },
         "score": {
@@ -1981,7 +1981,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.008632769
+                "logprob": -0.080172636
             },
             "im2": {
                 "answer": {
@@ -1989,7 +1989,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -3.0471343e-05
+                "logprob": -9.150362e-05
             }
         },
         "score": {
@@ -2075,7 +2075,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.28980088
+                "logprob": -0.7147918
             },
             "im2": {
                 "answer": {
@@ -2083,7 +2083,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.21791823
+                "logprob": -0.10987505
             }
         },
         "score": {
@@ -2169,7 +2169,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.0002812392
+                "logprob": -9.817902e-05
             },
             "im2": {
                 "answer": {
@@ -2177,7 +2177,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -2.9517714e-05
+                "logprob": -2.5345586e-05
             }
         },
         "score": {
@@ -2263,7 +2263,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.19510321
+                "logprob": -0.060349926
             },
             "im2": {
                 "answer": {
@@ -2271,7 +2271,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.013310341
+                "logprob": -0.015229643
             }
         },
         "score": {
@@ -2357,7 +2357,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.040879503
+                "logprob": -0.012540376
             },
             "im2": {
                 "answer": {
@@ -2365,7 +2365,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.0006185544
+                "logprob": -0.050091077
             }
         },
         "score": {
@@ -2451,7 +2451,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.018173708
+                "logprob": -0.048741907
             },
             "im2": {
                 "answer": {
@@ -2459,7 +2459,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.0042345123
+                "logprob": -0.0054628514
             }
         },
         "score": {
@@ -2545,7 +2545,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.03932162
+                "logprob": -0.13010062
             },
             "im2": {
                 "answer": {
@@ -2553,7 +2553,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.06216139
+                "logprob": -0.059631336
             }
         },
         "score": {
@@ -2639,7 +2639,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.7022291
+                "logprob": -0.44140667
             },
             "im2": {
                 "answer": {
@@ -2647,7 +2647,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.43709683
+                "logprob": -0.5082545
             }
         },
         "score": {
@@ -2737,37 +2737,37 @@
             },
             "im2": {
                 "answer": {
-                    "full_answer": "I'm unable to view or interpret the contents of the image.",
-                    "A": 0,
+                    "full_answer": "A",
+                    "A": 10,
                     "B": 0
                 },
-                "logprob": -0.64864725
+                "logprob": -0.4805633
             }
         },
         "score": {
             "set_score": {
-                "Cerebral": 0,
+                "Cerebral": 2,
                 "Vascular": 0,
-                "Head and Neck": 0,
-                "Spinal": 0,
-                "Musculoskeletal": 0,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 0
-            },
-            "individual_score": {
-                "Cerebral": 1,
-                "Vascular": 0,
-                "Head and Neck": 0,
-                "Spinal": 1,
+                "Head and Neck": 1,
+                "Spinal": 2,
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
                 "total": 1
+            },
+            "individual_score": {
+                "Cerebral": 2,
+                "Vascular": 0,
+                "Head and Neck": 1,
+                "Spinal": 2,
+                "Musculoskeletal": 0,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 2
             },
             "confused": {
                 "Cerebral": 0,
@@ -2782,10 +2782,22 @@
                 "total": 0
             },
             "invalid": {
-                "Cerebral": 1,
+                "Cerebral": 0,
+                "Vascular": 0,
+                "Head and Neck": 0,
+                "Spinal": 0,
+                "Musculoskeletal": 0,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 0
+            },
+            "valids": {
+                "Cerebral": 2,
                 "Vascular": 0,
                 "Head and Neck": 1,
-                "Spinal": 1,
+                "Spinal": 2,
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
                 "Gastrointestinal": 0,
@@ -2793,29 +2805,17 @@
                 "Nuclear Medicine": 0,
                 "total": 1
             },
-            "valids": {
-                "Cerebral": 0,
-                "Vascular": 0,
-                "Head and Neck": 0,
-                "Spinal": 0,
-                "Musculoskeletal": 0,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 0
-            },
             "valid_pairs": {
-                "Cerebral": 0,
+                "Cerebral": 2,
                 "Vascular": 0,
-                "Head and Neck": 0,
-                "Spinal": 0,
+                "Head and Neck": 1,
+                "Spinal": 2,
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 0
+                "total": 1
             }
         }
     },
@@ -2827,7 +2827,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -4.1273333e-06
+                "logprob": -7.3458323e-06
             },
             "im2": {
                 "answer": {
@@ -2835,7 +2835,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.00020270597
+                "logprob": -0.000821661
             }
         },
         "score": {
@@ -2921,7 +2921,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.015232225
+                "logprob": -0.032321017
             },
             "im2": {
                 "answer": {
@@ -2929,7 +2929,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.0007008801
+                "logprob": -0.00010402
             }
         },
         "score": {
@@ -3015,7 +3015,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.38697618
+                "logprob": -0.57600164
             },
             "im2": {
                 "answer": {
@@ -3023,7 +3023,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.03095091
+                "logprob": -0.051037636
             }
         },
         "score": {
@@ -3105,11 +3105,11 @@
         "answer": {
             "im1": {
                 "answer": {
-                    "full_answer": "I'm unable to view or interpret images. Please describe the image or provide more context, and I can try to help!",
+                    "full_answer": "I'm unable to view images, but if you describe the image or provide more context, I can help you interpret it.",
                     "A": 0,
                     "B": 0
                 },
-                "logprob": -0.5741987
+                "logprob": -0.2648065
             },
             "im2": {
                 "answer": {
@@ -3117,7 +3117,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.06396816
+                "logprob": -0.04352044
             }
         },
         "score": {
@@ -3203,7 +3203,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.5085464
+                "logprob": -0.32911742
             },
             "im2": {
                 "answer": {
@@ -3211,7 +3211,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.64509046
+                "logprob": -0.342514
             }
         },
         "score": {
@@ -3293,19 +3293,19 @@
         "answer": {
             "im1": {
                 "answer": {
-                    "full_answer": "I'm sorry, I can't determine the answer from the image.",
-                    "A": 0,
-                    "B": 0
-                },
-                "logprob": -0.34455445
-            },
-            "im2": {
-                "answer": {
                     "full_answer": "A",
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.69412166
+                "logprob": -0.027277166
+            },
+            "im2": {
+                "answer": {
+                    "full_answer": "B",
+                    "A": 0,
+                    "B": 10
+                },
+                "logprob": -0.31697786
             }
         },
         "score": {
@@ -3313,25 +3313,25 @@
                 "Cerebral": 0,
                 "Vascular": 0,
                 "Head and Neck": 0,
-                "Spinal": 0,
+                "Spinal": 2,
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 0
+                "total": 1
             },
             "individual_score": {
                 "Cerebral": 0,
                 "Vascular": 0,
                 "Head and Neck": 0,
-                "Spinal": 0,
+                "Spinal": 2,
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 0
+                "total": 2
             },
             "confused": {
                 "Cerebral": 0,
@@ -3349,7 +3349,19 @@
                 "Cerebral": 0,
                 "Vascular": 0,
                 "Head and Neck": 0,
-                "Spinal": 1,
+                "Spinal": 0,
+                "Musculoskeletal": 0,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 0
+            },
+            "valids": {
+                "Cerebral": 0,
+                "Vascular": 0,
+                "Head and Neck": 0,
+                "Spinal": 2,
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
                 "Gastrointestinal": 0,
@@ -3357,29 +3369,17 @@
                 "Nuclear Medicine": 0,
                 "total": 1
             },
-            "valids": {
-                "Cerebral": 0,
-                "Vascular": 0,
-                "Head and Neck": 0,
-                "Spinal": 0,
-                "Musculoskeletal": 0,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 0
-            },
             "valid_pairs": {
                 "Cerebral": 0,
                 "Vascular": 0,
                 "Head and Neck": 0,
-                "Spinal": 0,
+                "Spinal": 2,
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 0
+                "total": 1
             }
         }
     },
@@ -3391,7 +3391,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.1284748
+                "logprob": -0.060332425
             },
             "im2": {
                 "answer": {
@@ -3399,7 +3399,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.496898
+                "logprob": -0.029840859
             }
         },
         "score": {
@@ -3485,7 +3485,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.09882166
+                "logprob": -0.048277993
             },
             "im2": {
                 "answer": {
@@ -3493,7 +3493,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.0005767433
+                "logprob": -0.01818764
             }
         },
         "score": {
@@ -3579,7 +3579,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.001986329
+                "logprob": -0.0007325553
             },
             "im2": {
                 "answer": {
@@ -3587,7 +3587,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -9.73446e-05
+                "logprob": -0.00041649136
             }
         },
         "score": {
@@ -3673,7 +3673,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.16363801
+                "logprob": -0.16400123
             },
             "im2": {
                 "answer": {
@@ -3681,7 +3681,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.43897626
+                "logprob": -0.032051835
             }
         },
         "score": {
@@ -3767,7 +3767,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.6979267
+                "logprob": -0.0071298545
             },
             "im2": {
                 "answer": {
@@ -3775,7 +3775,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.20769621
+                "logprob": -0.08154514
             }
         },
         "score": {
@@ -3861,15 +3861,15 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.17343776
+                "logprob": -0.16712137
             },
             "im2": {
                 "answer": {
-                    "full_answer": "I'm unable to view or interpret images. Please provide a description or more information.",
+                    "full_answer": "B",
                     "A": 0,
-                    "B": 0
+                    "B": 10
                 },
-                "logprob": -0.13671017
+                "logprob": -0.0112761725
             }
         },
         "score": {
@@ -3901,19 +3901,7 @@
                 "Cerebral": 0,
                 "Vascular": 0,
                 "Head and Neck": 0,
-                "Spinal": 0,
-                "Musculoskeletal": 0,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 0
-            },
-            "invalid": {
-                "Cerebral": 0,
-                "Vascular": 0,
-                "Head and Neck": 0,
-                "Spinal": 1,
+                "Spinal": 2,
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
                 "Gastrointestinal": 0,
@@ -3921,7 +3909,7 @@
                 "Nuclear Medicine": 0,
                 "total": 1
             },
-            "valids": {
+            "invalid": {
                 "Cerebral": 0,
                 "Vascular": 0,
                 "Head and Neck": 0,
@@ -3932,6 +3920,18 @@
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
                 "total": 0
+            },
+            "valids": {
+                "Cerebral": 0,
+                "Vascular": 0,
+                "Head and Neck": 0,
+                "Spinal": 2,
+                "Musculoskeletal": 0,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 1
             },
             "valid_pairs": {
                 "Cerebral": 0,
@@ -3955,7 +3955,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.0032455628
+                "logprob": -0.252565
             },
             "im2": {
                 "answer": {
@@ -3963,7 +3963,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.07952613
+                "logprob": -0.031321716
             }
         },
         "score": {
@@ -4049,15 +4049,15 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -3.297462e-05
+                "logprob": -1.4974867e-05
             },
             "im2": {
                 "answer": {
-                    "full_answer": "A",
-                    "A": 10,
+                    "full_answer": "I'm unable to view or interpret images.",
+                    "A": 0,
                     "B": 0
                 },
-                "logprob": -0.26944312
+                "logprob": -0.32081977
             }
         },
         "score": {
@@ -4067,11 +4067,11 @@
                 "Head and Neck": 0,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
-                "Cardiac": 2,
+                "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 1
+                "total": 0
             },
             "individual_score": {
                 "Cerebral": 0,
@@ -4079,11 +4079,11 @@
                 "Head and Neck": 0,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
-                "Cardiac": 2,
+                "Cardiac": 1,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 2
+                "total": 1
             },
             "confused": {
                 "Cerebral": 0,
@@ -4103,11 +4103,11 @@
                 "Head and Neck": 0,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
-                "Cardiac": 0,
+                "Cardiac": 1,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 0
+                "total": 1
             },
             "valids": {
                 "Cerebral": 0,
@@ -4115,11 +4115,11 @@
                 "Head and Neck": 0,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
-                "Cardiac": 2,
+                "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 1
+                "total": 0
             },
             "valid_pairs": {
                 "Cerebral": 0,
@@ -4127,11 +4127,11 @@
                 "Head and Neck": 0,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
-                "Cardiac": 2,
+                "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 1
+                "total": 0
             }
         }
     },
@@ -4143,7 +4143,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.38067454
+                "logprob": -0.19345626
             },
             "im2": {
                 "answer": {
@@ -4233,11 +4233,11 @@
         "answer": {
             "im1": {
                 "answer": {
-                    "full_answer": "I'm unable to analyze images directly. Please consult a medical professional for an accurate assessment.",
+                    "full_answer": "I'm unable to view or interpret images. Please consult a medical professional for an accurate assessment.",
                     "A": 0,
                     "B": 0
                 },
-                "logprob": -0.46364287
+                "logprob": -0.04024407
             },
             "im2": {
                 "answer": {
@@ -4245,7 +4245,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.7125135
+                "logprob": -0.60035723
             }
         },
         "score": {
@@ -4327,11 +4327,11 @@
         "answer": {
             "im1": {
                 "answer": {
-                    "full_answer": "B",
-                    "A": 0,
-                    "B": 10
+                    "full_answer": "A",
+                    "A": 10,
+                    "B": 0
                 },
-                "logprob": -0.53892505
+                "logprob": -0.57938445
             },
             "im2": {
                 "answer": {
@@ -4339,35 +4339,11 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.087512806
+                "logprob": -0.0652323
             }
         },
         "score": {
             "set_score": {
-                "Cerebral": 0,
-                "Vascular": 0,
-                "Head and Neck": 0,
-                "Spinal": 0,
-                "Musculoskeletal": 0,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 0
-            },
-            "individual_score": {
-                "Cerebral": 0,
-                "Vascular": 0,
-                "Head and Neck": 0,
-                "Spinal": 0,
-                "Musculoskeletal": 0,
-                "Cardiac": 1,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 1
-            },
-            "confused": {
                 "Cerebral": 0,
                 "Vascular": 0,
                 "Head and Neck": 0,
@@ -4378,6 +4354,30 @@
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
                 "total": 1
+            },
+            "individual_score": {
+                "Cerebral": 0,
+                "Vascular": 0,
+                "Head and Neck": 0,
+                "Spinal": 0,
+                "Musculoskeletal": 0,
+                "Cardiac": 2,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 2
+            },
+            "confused": {
+                "Cerebral": 0,
+                "Vascular": 0,
+                "Head and Neck": 0,
+                "Spinal": 0,
+                "Musculoskeletal": 0,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 0
             },
             "invalid": {
                 "Cerebral": 0,
@@ -4409,11 +4409,11 @@
                 "Head and Neck": 0,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
-                "Cardiac": 0,
+                "Cardiac": 2,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 0
+                "total": 1
             }
         }
     },
@@ -4425,7 +4425,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.00063416274
+                "logprob": -0.000634878
             },
             "im2": {
                 "answer": {
@@ -4433,7 +4433,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.010260405
+                "logprob": -0.0029365793
             }
         },
         "score": {
@@ -4519,7 +4519,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.19424759
+                "logprob": -0.38030502
             },
             "im2": {
                 "answer": {
@@ -4527,7 +4527,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.38731027
+                "logprob": -0.5759881
             }
         },
         "score": {
@@ -4609,11 +4609,11 @@
         "answer": {
             "im1": {
                 "answer": {
-                    "full_answer": "A",
-                    "A": 10,
+                    "full_answer": "I'm unable to interpret images. Please consult a medical professional for an accurate assessment.",
+                    "A": 0,
                     "B": 0
                 },
-                "logprob": -0.5832775
+                "logprob": -0.1080915
             },
             "im2": {
                 "answer": {
@@ -4643,25 +4643,13 @@
                 "Head and Neck": 0,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
-                "Cardiac": 1,
+                "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 1
+                "total": 0
             },
             "confused": {
-                "Cerebral": 0,
-                "Vascular": 0,
-                "Head and Neck": 0,
-                "Spinal": 0,
-                "Musculoskeletal": 0,
-                "Cardiac": 2,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 1
-            },
-            "invalid": {
                 "Cerebral": 0,
                 "Vascular": 0,
                 "Head and Neck": 0,
@@ -4673,17 +4661,29 @@
                 "Nuclear Medicine": 0,
                 "total": 0
             },
+            "invalid": {
+                "Cerebral": 0,
+                "Vascular": 0,
+                "Head and Neck": 0,
+                "Spinal": 0,
+                "Musculoskeletal": 0,
+                "Cardiac": 1,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 1
+            },
             "valids": {
                 "Cerebral": 0,
                 "Vascular": 0,
                 "Head and Neck": 0,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
-                "Cardiac": 2,
+                "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 1
+                "total": 0
             },
             "valid_pairs": {
                 "Cerebral": 0,
@@ -4707,15 +4707,15 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.08274008
+                "logprob": -0.16765408
             },
             "im2": {
                 "answer": {
-                    "full_answer": "A",
-                    "A": 10,
+                    "full_answer": "I'm unable to analyze images.",
+                    "A": 0,
                     "B": 0
                 },
-                "logprob": -0.4849746
+                "logprob": -0.32462063
             }
         },
         "score": {
@@ -4749,13 +4749,25 @@
                 "Head and Neck": 0,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
-                "Cardiac": 2,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 0
+            },
+            "invalid": {
+                "Cerebral": 0,
+                "Vascular": 0,
+                "Head and Neck": 0,
+                "Spinal": 0,
+                "Musculoskeletal": 0,
+                "Cardiac": 1,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
                 "total": 1
             },
-            "invalid": {
+            "valids": {
                 "Cerebral": 0,
                 "Vascular": 0,
                 "Head and Neck": 0,
@@ -4766,18 +4778,6 @@
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
                 "total": 0
-            },
-            "valids": {
-                "Cerebral": 0,
-                "Vascular": 0,
-                "Head and Neck": 0,
-                "Spinal": 0,
-                "Musculoskeletal": 0,
-                "Cardiac": 2,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 1
             },
             "valid_pairs": {
                 "Cerebral": 0,
@@ -4801,7 +4801,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.0009500489
+                "logprob": -0.31620508
             },
             "im2": {
                 "answer": {
@@ -4891,11 +4891,11 @@
         "answer": {
             "im1": {
                 "answer": {
-                    "full_answer": "I'm unable to view or interpret images. Please consult a medical professional for an accurate assessment.",
+                    "full_answer": "I'm unable to analyze images directly. Please consult a medical professional for an accurate assessment.",
                     "A": 0,
                     "B": 0
                 },
-                "logprob": -0.21642224
+                "logprob": -0.041014183
             },
             "im2": {
                 "answer": {
@@ -4903,7 +4903,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -1.0280384e-06
+                "logprob": -1.147242e-06
             }
         },
         "score": {
@@ -4989,15 +4989,15 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.16908254
+                "logprob": -0.59099084
             },
             "im2": {
                 "answer": {
-                    "full_answer": "I'm unable to analyze or interpret images.",
-                    "A": 0,
+                    "full_answer": "A",
+                    "A": 10,
                     "B": 0
                 },
-                "logprob": -0.01508827
+                "logprob": -0.50171894
             }
         },
         "score": {
@@ -5031,11 +5031,11 @@
                 "Head and Neck": 0,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
-                "Cardiac": 0,
+                "Cardiac": 2,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 0
+                "total": 1
             },
             "invalid": {
                 "Cerebral": 0,
@@ -5043,11 +5043,11 @@
                 "Head and Neck": 0,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
-                "Cardiac": 1,
+                "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 1
+                "total": 0
             },
             "valids": {
                 "Cerebral": 0,
@@ -5055,11 +5055,11 @@
                 "Head and Neck": 0,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
-                "Cardiac": 0,
+                "Cardiac": 2,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 0
+                "total": 1
             },
             "valid_pairs": {
                 "Cerebral": 0,
@@ -5083,7 +5083,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.011057253
+                "logprob": -0.005320208
             },
             "im2": {
                 "answer": {
@@ -5091,7 +5091,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.4761686
+                "logprob": -0.39302653
             }
         },
         "score": {
@@ -5173,19 +5173,19 @@
         "answer": {
             "im1": {
                 "answer": {
-                    "full_answer": "I'm unable to analyze or interpret medical images. Please consult a medical professional for an accurate assessment.",
+                    "full_answer": "I'm unable to analyze or interpret images.",
                     "A": 0,
                     "B": 0
                 },
-                "logprob": -0.3267736
+                "logprob": -0.023909735
             },
             "im2": {
                 "answer": {
-                    "full_answer": "I'm unable to analyze images or provide a direct answer based on them.",
-                    "A": 0,
+                    "full_answer": "A",
+                    "A": 10,
                     "B": 0
                 },
-                "logprob": -0.48402622
+                "logprob": -0.011911061
             }
         },
         "score": {
@@ -5207,11 +5207,11 @@
                 "Head and Neck": 0,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
-                "Cardiac": 0,
+                "Cardiac": 1,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 0
+                "total": 1
             },
             "confused": {
                 "Cerebral": 0,
@@ -5231,11 +5231,11 @@
                 "Head and Neck": 0,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
-                "Cardiac": 2,
+                "Cardiac": 1,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 2
+                "total": 1
             },
             "valids": {
                 "Cerebral": 0,
@@ -5271,7 +5271,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.06629952
+                "logprob": -0.20227794
             },
             "im2": {
                 "answer": {
@@ -5279,7 +5279,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.31780514
+                "logprob": -0.31780496
             }
         },
         "score": {
@@ -5365,15 +5365,15 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.02474952
+                "logprob": -0.0022577834
             },
             "im2": {
                 "answer": {
-                    "full_answer": "I'm unable to view or analyze images. Please describe the image or provide more context, and I can help with the information you provide.",
-                    "A": 0,
+                    "full_answer": "A",
+                    "A": 10,
                     "B": 0
                 },
-                "logprob": -0.5934405
+                "logprob": -0.011892918
             }
         },
         "score": {
@@ -5407,11 +5407,11 @@
                 "Head and Neck": 0,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
-                "Cardiac": 0,
+                "Cardiac": 2,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 0
+                "total": 1
             },
             "invalid": {
                 "Cerebral": 0,
@@ -5419,11 +5419,11 @@
                 "Head and Neck": 0,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
-                "Cardiac": 1,
+                "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 1
+                "total": 0
             },
             "valids": {
                 "Cerebral": 0,
@@ -5431,11 +5431,11 @@
                 "Head and Neck": 0,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
-                "Cardiac": 0,
+                "Cardiac": 2,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 0
+                "total": 1
             },
             "valid_pairs": {
                 "Cerebral": 0,
@@ -5459,7 +5459,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.2211832
+                "logprob": -0.73509914
             },
             "im2": {
                 "answer": {
@@ -5467,7 +5467,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.08726179
+                "logprob": -0.0036193125
             }
         },
         "score": {
@@ -5553,7 +5553,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.05077037
+                "logprob": -0.31330398
             },
             "im2": {
                 "answer": {
@@ -5561,7 +5561,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.0019770495
+                "logprob": -0.0043339836
             }
         },
         "score": {
@@ -5647,7 +5647,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.16038385
+                "logprob": -0.079483196
             },
             "im2": {
                 "answer": {
@@ -5655,7 +5655,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.08392988
+                "logprob": -0.008011628
             }
         },
         "score": {
@@ -5741,7 +5741,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -2.9756122e-05
+                "logprob": -2.9517714e-05
             },
             "im2": {
                 "answer": {
@@ -5749,7 +5749,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.00022427815
+                "logprob": -4.3822154e-05
             }
         },
         "score": {
@@ -5843,7 +5843,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.11098501
+                "logprob": -0.14492129
             }
         },
         "score": {
@@ -5925,11 +5925,11 @@
         "answer": {
             "im1": {
                 "answer": {
-                    "full_answer": "B",
-                    "A": 0,
-                    "B": 10
+                    "full_answer": "A",
+                    "A": 10,
+                    "B": 0
                 },
-                "logprob": -0.25205538
+                "logprob": -0.313851
             },
             "im2": {
                 "answer": {
@@ -5937,7 +5937,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.3136301
+                "logprob": -0.08037913
             }
         },
         "score": {
@@ -5959,11 +5959,11 @@
                 "Head and Neck": 0,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
-                "Cardiac": 1,
+                "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 1
+                "total": 0
             },
             "confused": {
                 "Cerebral": 0,
@@ -5971,11 +5971,11 @@
                 "Head and Neck": 0,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
-                "Cardiac": 2,
+                "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 1
+                "total": 0
             },
             "invalid": {
                 "Cerebral": 0,
@@ -6007,11 +6007,11 @@
                 "Head and Neck": 0,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
-                "Cardiac": 0,
+                "Cardiac": 2,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 0
+                "total": 1
             }
         }
     },
@@ -6023,7 +6023,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -1.3856493e-06
+                "logprob": -1.2664457e-06
             },
             "im2": {
                 "answer": {
@@ -6031,7 +6031,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.09662224
+                "logprob": -0.2829181
             }
         },
         "score": {
@@ -6117,7 +6117,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.012342119
+                "logprob": -0.12446399
             },
             "im2": {
                 "answer": {
@@ -6125,7 +6125,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.007955331
+                "logprob": -0.48254457
             }
         },
         "score": {
@@ -6211,7 +6211,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.0017233692
+                "logprob": -0.0013869047
             },
             "im2": {
                 "answer": {
@@ -6219,7 +6219,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.007226905
+                "logprob": -0.049806666
             }
         },
         "score": {
@@ -6305,7 +6305,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.00041708734
+                "logprob": -0.00014501873
             },
             "im2": {
                 "answer": {
@@ -6313,7 +6313,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.00031651612
+                "logprob": -0.00039146954
             }
         },
         "score": {
@@ -6399,43 +6399,19 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.0015147424
+                "logprob": -0.014673223
             },
             "im2": {
                 "answer": {
-                    "full_answer": "B",
-                    "A": 0,
-                    "B": 10
+                    "full_answer": "A",
+                    "A": 10,
+                    "B": 0
                 },
-                "logprob": -0.12709178
+                "logprob": -0.4744389
             }
         },
         "score": {
             "set_score": {
-                "Cerebral": 0,
-                "Vascular": 0,
-                "Head and Neck": 0,
-                "Spinal": 0,
-                "Musculoskeletal": 0,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 0
-            },
-            "individual_score": {
-                "Cerebral": 0,
-                "Vascular": 1,
-                "Head and Neck": 0,
-                "Spinal": 0,
-                "Musculoskeletal": 0,
-                "Cardiac": 1,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 1
-            },
-            "confused": {
                 "Cerebral": 0,
                 "Vascular": 2,
                 "Head and Neck": 0,
@@ -6446,6 +6422,30 @@
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
                 "total": 1
+            },
+            "individual_score": {
+                "Cerebral": 0,
+                "Vascular": 2,
+                "Head and Neck": 0,
+                "Spinal": 0,
+                "Musculoskeletal": 0,
+                "Cardiac": 2,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 2
+            },
+            "confused": {
+                "Cerebral": 0,
+                "Vascular": 0,
+                "Head and Neck": 0,
+                "Spinal": 0,
+                "Musculoskeletal": 0,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 0
             },
             "invalid": {
                 "Cerebral": 0,
@@ -6473,15 +6473,15 @@
             },
             "valid_pairs": {
                 "Cerebral": 0,
-                "Vascular": 0,
+                "Vascular": 2,
                 "Head and Neck": 0,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
-                "Cardiac": 0,
+                "Cardiac": 2,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 0
+                "total": 1
             }
         }
     },
@@ -6493,7 +6493,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.18361948
+                "logprob": -0.009763641
             },
             "im2": {
                 "answer": {
@@ -6501,7 +6501,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.0672302
+                "logprob": -0.052143987
             }
         },
         "score": {
@@ -6583,19 +6583,19 @@
         "answer": {
             "im1": {
                 "answer": {
-                    "full_answer": "A",
-                    "A": 10,
-                    "B": 0
-                },
-                "logprob": -0.14848359
-            },
-            "im2": {
-                "answer": {
                     "full_answer": "B",
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.2523531
+                "logprob": -0.7409233
+            },
+            "im2": {
+                "answer": {
+                    "full_answer": "A",
+                    "A": 10,
+                    "B": 0
+                },
+                "logprob": -0.38751024
             }
         },
         "score": {
@@ -6606,10 +6606,10 @@
                 "Spinal": 0,
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
-                "Gastrointestinal": 0,
+                "Gastrointestinal": 2,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 0
+                "total": 1
             },
             "individual_score": {
                 "Cerebral": 0,
@@ -6618,10 +6618,10 @@
                 "Spinal": 0,
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
-                "Gastrointestinal": 0,
+                "Gastrointestinal": 2,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 0
+                "total": 2
             },
             "confused": {
                 "Cerebral": 0,
@@ -6681,7 +6681,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.18400958
+                "logprob": -0.1703285
             },
             "im2": {
                 "answer": {
@@ -6689,7 +6689,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.0045705116
+                "logprob": -0.0064884652
             }
         },
         "score": {
@@ -6775,7 +6775,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.004762261
+                "logprob": -0.06512955
             },
             "im2": {
                 "answer": {
@@ -6783,7 +6783,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.16809866
+                "logprob": -0.17014852
             }
         },
         "score": {
@@ -6865,11 +6865,11 @@
         "answer": {
             "im1": {
                 "answer": {
-                    "full_answer": "A",
-                    "A": 10,
-                    "B": 0
+                    "full_answer": "B",
+                    "A": 0,
+                    "B": 10
                 },
-                "logprob": -0.5077149
+                "logprob": -0.21085818
             },
             "im2": {
                 "answer": {
@@ -6877,7 +6877,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.12881137
+                "logprob": -0.58274466
             }
         },
         "score": {
@@ -6888,10 +6888,10 @@
                 "Spinal": 0,
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
-                "Gastrointestinal": 2,
+                "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 1
+                "total": 0
             },
             "individual_score": {
                 "Cerebral": 0,
@@ -6900,10 +6900,10 @@
                 "Spinal": 0,
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
-                "Gastrointestinal": 2,
+                "Gastrointestinal": 1,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 2
+                "total": 1
             },
             "confused": {
                 "Cerebral": 0,
@@ -6912,10 +6912,10 @@
                 "Spinal": 0,
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
-                "Gastrointestinal": 0,
+                "Gastrointestinal": 2,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 0
+                "total": 1
             },
             "invalid": {
                 "Cerebral": 0,
@@ -6948,10 +6948,10 @@
                 "Spinal": 0,
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
-                "Gastrointestinal": 2,
+                "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 1
+                "total": 0
             }
         }
     },
@@ -6963,7 +6963,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.23470448
+                "logprob": -0.43081433
             },
             "im2": {
                 "answer": {
@@ -6971,7 +6971,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.3400204
+                "logprob": -0.2438652
             }
         },
         "score": {
@@ -7057,7 +7057,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.029750716
+                "logprob": -0.023246756
             },
             "im2": {
                 "answer": {
@@ -7065,7 +7065,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.0031804447
+                "logprob": -0.0024773201
             }
         },
         "score": {
@@ -7151,7 +7151,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.0017557413
+                "logprob": -0.0088552935
             },
             "im2": {
                 "answer": {
@@ -7159,7 +7159,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.086331666
+                "logprob": -0.5172907
             }
         },
         "score": {
@@ -7245,7 +7245,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.5325701
+                "logprob": -0.7023363
             },
             "im2": {
                 "answer": {
@@ -7253,7 +7253,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.37929994
+                "logprob": -0.09874962
             }
         },
         "score": {
@@ -7339,7 +7339,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.002623693
+                "logprob": -0.007922098
             },
             "im2": {
                 "answer": {
@@ -7347,7 +7347,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.06199962
+                "logprob": -0.0031962506
             }
         },
         "score": {
@@ -7433,7 +7433,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.00026026298
+                "logprob": -0.00015229016
             },
             "im2": {
                 "answer": {
@@ -7441,7 +7441,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.002718449
+                "logprob": -0.0024888574
             }
         },
         "score": {
@@ -7523,19 +7523,19 @@
         "answer": {
             "im1": {
                 "answer": {
+                    "full_answer": "A",
+                    "A": 10,
+                    "B": 0
+                },
+                "logprob": -0.67315227
+            },
+            "im2": {
+                "answer": {
                     "full_answer": "B",
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.6444434
-            },
-            "im2": {
-                "answer": {
-                    "full_answer": "I'm unable to view or interpret images directly. However, typically in human anatomy, the pancreatic duct and the common bile duct join together at the ampulla of Vater before emptying into the duodenum. If you have a specific anatomical diagram or image, you might want to refer to a medical textbook or consult a professional for accurate interpretation.",
-                    "A": 0,
-                    "B": 0
-                },
-                "logprob": -0.2562082
+                "logprob": -0.8684983
             }
         },
         "score": {
@@ -7546,10 +7546,10 @@
                 "Spinal": 0,
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
-                "Gastrointestinal": 0,
+                "Gastrointestinal": 2,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 0
+                "total": 1
             },
             "individual_score": {
                 "Cerebral": 0,
@@ -7558,10 +7558,10 @@
                 "Spinal": 0,
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
-                "Gastrointestinal": 0,
+                "Gastrointestinal": 2,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 0
+                "total": 2
             },
             "confused": {
                 "Cerebral": 0,
@@ -7582,10 +7582,10 @@
                 "Spinal": 0,
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
-                "Gastrointestinal": 1,
+                "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 1
+                "total": 0
             },
             "valids": {
                 "Cerebral": 0,
@@ -7594,10 +7594,10 @@
                 "Spinal": 0,
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
-                "Gastrointestinal": 0,
+                "Gastrointestinal": 2,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 0
+                "total": 1
             },
             "valid_pairs": {
                 "Cerebral": 0,
@@ -7606,10 +7606,10 @@
                 "Spinal": 0,
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
-                "Gastrointestinal": 0,
+                "Gastrointestinal": 2,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 0
+                "total": 1
             }
         }
     },
@@ -7617,11 +7617,11 @@
         "answer": {
             "im1": {
                 "answer": {
-                    "full_answer": "I'm unable to view or interpret images directly. Please describe the image or provide more context, and I'll do my best to help.",
+                    "full_answer": "I'm unable to view or interpret images. Please provide a description or more information.",
                     "A": 0,
                     "B": 0
                 },
-                "logprob": -0.14002314
+                "logprob": -0.61206865
             },
             "im2": {
                 "answer": {
@@ -7629,7 +7629,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.13015452
+                "logprob": -0.20383956
             }
         },
         "score": {
@@ -7715,7 +7715,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -9.0883464e-07
+                "logprob": -1.9361265e-07
             },
             "im2": {
                 "answer": {
@@ -7723,7 +7723,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -4.3202e-07
+                "logprob": -3.888926e-06
             }
         },
         "score": {
@@ -7809,7 +7809,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -8.418666e-06
+                "logprob": -5.4385737e-06
             },
             "im2": {
                 "answer": {
@@ -7817,7 +7817,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.008987156
+                "logprob": -0.0042520813
             }
         },
         "score": {
@@ -7899,11 +7899,11 @@
         "answer": {
             "im1": {
                 "answer": {
-                    "full_answer": "A",
-                    "A": 10,
+                    "full_answer": "I'm unable to view or interpret images. Please describe the image or provide more context, and I'll do my best to help!",
+                    "A": 0,
                     "B": 0
                 },
-                "logprob": -0.03862671
+                "logprob": -0.095874734
             },
             "im2": {
                 "answer": {
@@ -7911,7 +7911,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.0019475567
+                "logprob": -0.6962391
             }
         },
         "score": {
@@ -7946,12 +7946,24 @@
                 "Spinal": 0,
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
-                "Gastrointestinal": 2,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 0
+            },
+            "invalid": {
+                "Cerebral": 0,
+                "Vascular": 0,
+                "Head and Neck": 0,
+                "Spinal": 0,
+                "Musculoskeletal": 0,
+                "Cardiac": 0,
+                "Gastrointestinal": 1,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
                 "total": 1
             },
-            "invalid": {
+            "valids": {
                 "Cerebral": 0,
                 "Vascular": 0,
                 "Head and Neck": 0,
@@ -7962,18 +7974,6 @@
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
                 "total": 0
-            },
-            "valids": {
-                "Cerebral": 0,
-                "Vascular": 0,
-                "Head and Neck": 0,
-                "Spinal": 0,
-                "Musculoskeletal": 0,
-                "Cardiac": 0,
-                "Gastrointestinal": 2,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 1
             },
             "valid_pairs": {
                 "Cerebral": 0,
@@ -7997,7 +7997,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.00015979631
+                "logprob": -0.00013309837
             },
             "im2": {
                 "answer": {
@@ -8005,7 +8005,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -6.0272258e-05
+                "logprob": -7.576874e-05
             }
         },
         "score": {
@@ -8091,7 +8091,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.100232445
+                "logprob": -0.38691112
             },
             "im2": {
                 "answer": {
@@ -8099,7 +8099,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.0045101084
+                "logprob": -0.005727321
             }
         },
         "score": {
@@ -8185,7 +8185,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.00047094907
+                "logprob": -6.897413e-05
             },
             "im2": {
                 "answer": {
@@ -8193,7 +8193,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -1.0802739e-05
+                "logprob": -4.00813e-06
             }
         },
         "score": {
@@ -8287,7 +8287,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.0009701796
+                "logprob": -0.0015455723
             }
         },
         "score": {
@@ -8373,7 +8373,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.002489807
+                "logprob": -0.000435795
             },
             "im2": {
                 "answer": {
@@ -8381,7 +8381,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.007204421
+                "logprob": -0.007172579
             }
         },
         "score": {
@@ -8467,7 +8467,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.023264816
+                "logprob": -0.0024842157
             },
             "im2": {
                 "answer": {
@@ -8475,7 +8475,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.00043484138
+                "logprob": -0.0012499966
             }
         },
         "score": {
@@ -8561,7 +8561,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.11786154
+                "logprob": -0.015133716
             },
             "im2": {
                 "answer": {
@@ -8655,7 +8655,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.09683175
+                "logprob": -0.37681824
             },
             "im2": {
                 "answer": {
@@ -8663,7 +8663,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.07767028
+                "logprob": -0.08146383
             }
         },
         "score": {
@@ -8745,11 +8745,11 @@
         "answer": {
             "im1": {
                 "answer": {
-                    "full_answer": "A",
-                    "A": 10,
+                    "full_answer": "I'm unable to view or interpret images. Please describe the image or provide more context.",
+                    "A": 0,
                     "B": 0
                 },
-                "logprob": -0.04159046
+                "logprob": -0.59817743
             },
             "im2": {
                 "answer": {
@@ -8757,7 +8757,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.010527391
+                "logprob": -0.0018153597
             }
         },
         "score": {
@@ -8790,14 +8790,26 @@
                 "Vascular": 0,
                 "Head and Neck": 0,
                 "Spinal": 0,
-                "Musculoskeletal": 2,
+                "Musculoskeletal": 0,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 0
+            },
+            "invalid": {
+                "Cerebral": 0,
+                "Vascular": 0,
+                "Head and Neck": 0,
+                "Spinal": 0,
+                "Musculoskeletal": 1,
                 "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
                 "total": 1
             },
-            "invalid": {
+            "valids": {
                 "Cerebral": 0,
                 "Vascular": 0,
                 "Head and Neck": 0,
@@ -8808,18 +8820,6 @@
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
                 "total": 0
-            },
-            "valids": {
-                "Cerebral": 0,
-                "Vascular": 0,
-                "Head and Neck": 0,
-                "Spinal": 0,
-                "Musculoskeletal": 2,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 1
             },
             "valid_pairs": {
                 "Cerebral": 0,
@@ -8843,15 +8843,15 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.0077381777
+                "logprob": -0.050990168
             },
             "im2": {
                 "answer": {
-                    "full_answer": "A",
-                    "A": 10,
+                    "full_answer": "I'm unable to view or analyze the content of the image.",
+                    "A": 0,
                     "B": 0
                 },
-                "logprob": -0.6254046
+                "logprob": -0.21396846
             }
         },
         "score": {
@@ -8884,14 +8884,26 @@
                 "Vascular": 0,
                 "Head and Neck": 0,
                 "Spinal": 0,
-                "Musculoskeletal": 2,
+                "Musculoskeletal": 0,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 0
+            },
+            "invalid": {
+                "Cerebral": 0,
+                "Vascular": 0,
+                "Head and Neck": 0,
+                "Spinal": 0,
+                "Musculoskeletal": 1,
                 "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
                 "total": 1
             },
-            "invalid": {
+            "valids": {
                 "Cerebral": 0,
                 "Vascular": 0,
                 "Head and Neck": 0,
@@ -8902,18 +8914,6 @@
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
                 "total": 0
-            },
-            "valids": {
-                "Cerebral": 0,
-                "Vascular": 0,
-                "Head and Neck": 0,
-                "Spinal": 0,
-                "Musculoskeletal": 2,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 1
             },
             "valid_pairs": {
                 "Cerebral": 0,
@@ -8937,7 +8937,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.008644821
+                "logprob": -0.03855892
             },
             "im2": {
                 "answer": {
@@ -8945,7 +8945,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.2466191
+                "logprob": -0.22289003
             }
         },
         "score": {
@@ -9027,11 +9027,11 @@
         "answer": {
             "im1": {
                 "answer": {
-                    "full_answer": "A",
-                    "A": 10,
-                    "B": 0
+                    "full_answer": "B",
+                    "A": 0,
+                    "B": 10
                 },
-                "logprob": -0.20728062
+                "logprob": -0.5899578
             },
             "im2": {
                 "answer": {
@@ -9039,7 +9039,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.67373055
+                "logprob": -0.50399524
             }
         },
         "score": {
@@ -9060,24 +9060,24 @@
                 "Vascular": 0,
                 "Head and Neck": 0,
                 "Spinal": 0,
-                "Musculoskeletal": 0,
+                "Musculoskeletal": 1,
                 "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 0
+                "total": 1
             },
             "confused": {
                 "Cerebral": 0,
                 "Vascular": 0,
                 "Head and Neck": 0,
                 "Spinal": 0,
-                "Musculoskeletal": 0,
+                "Musculoskeletal": 2,
                 "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 0
+                "total": 1
             },
             "invalid": {
                 "Cerebral": 0,
@@ -9108,12 +9108,12 @@
                 "Vascular": 0,
                 "Head and Neck": 0,
                 "Spinal": 0,
-                "Musculoskeletal": 2,
+                "Musculoskeletal": 0,
                 "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 1
+                "total": 0
             }
         }
     },
@@ -9125,7 +9125,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.69322336
+                "logprob": -0.31330806
             },
             "im2": {
                 "answer": {
@@ -9133,7 +9133,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.57789344
+                "logprob": -0.061984602
             }
         },
         "score": {
@@ -9219,7 +9219,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -5.955704e-05
+                "logprob": -0.00026944166
             },
             "im2": {
                 "answer": {
@@ -9227,7 +9227,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.07773834
+                "logprob": -0.006832587
             }
         },
         "score": {
@@ -9313,7 +9313,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.024844646
+                "logprob": -0.0108105745
             },
             "im2": {
                 "answer": {
@@ -9321,7 +9321,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.09035571
+                "logprob": -0.38890108
             }
         },
         "score": {
@@ -9407,7 +9407,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.13324405
+                "logprob": -0.03864013
             },
             "im2": {
                 "answer": {
@@ -9415,7 +9415,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.965662
+                "logprob": -0.1736458
             }
         },
         "score": {
@@ -9501,7 +9501,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.024114577
+                "logprob": -0.02411434
             },
             "im2": {
                 "answer": {
@@ -9509,7 +9509,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.004668407
+                "logprob": -0.039300993
             }
         },
         "score": {
@@ -9595,7 +9595,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -9.3410876e-05
+                "logprob": -0.00016110756
             },
             "im2": {
                 "answer": {
@@ -9603,7 +9603,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.0030510277
+                "logprob": -0.0067624985
             }
         },
         "score": {
@@ -9689,15 +9689,15 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.004310242
+                "logprob": -0.0042622965
             },
             "im2": {
                 "answer": {
-                    "full_answer": "I'm unable to interpret medical images. Please consult a medical professional for an accurate diagnosis.",
-                    "A": 0,
+                    "full_answer": "A",
+                    "A": 10,
                     "B": 0
                 },
-                "logprob": -0.58205986
+                "logprob": -0.030082062
             }
         },
         "score": {
@@ -9730,26 +9730,14 @@
                 "Vascular": 0,
                 "Head and Neck": 0,
                 "Spinal": 0,
-                "Musculoskeletal": 0,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 0
-            },
-            "invalid": {
-                "Cerebral": 0,
-                "Vascular": 0,
-                "Head and Neck": 0,
-                "Spinal": 0,
-                "Musculoskeletal": 1,
+                "Musculoskeletal": 2,
                 "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
                 "total": 1
             },
-            "valids": {
+            "invalid": {
                 "Cerebral": 0,
                 "Vascular": 0,
                 "Head and Neck": 0,
@@ -9760,6 +9748,18 @@
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
                 "total": 0
+            },
+            "valids": {
+                "Cerebral": 0,
+                "Vascular": 0,
+                "Head and Neck": 0,
+                "Spinal": 0,
+                "Musculoskeletal": 2,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 1
             },
             "valid_pairs": {
                 "Cerebral": 0,
@@ -9783,7 +9783,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.04210833
+                "logprob": -0.0043825363
             },
             "im2": {
                 "answer": {
@@ -9791,7 +9791,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.00044413557
+                "logprob": -0.00034106473
             }
         },
         "score": {
@@ -9877,7 +9877,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.008044145
+                "logprob": -0.00786107
             },
             "im2": {
                 "answer": {
@@ -9885,7 +9885,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.6935738
+                "logprob": -0.104145244
             }
         },
         "score": {
@@ -9971,7 +9971,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.5392985
+                "logprob": -0.40384328
             },
             "im2": {
                 "answer": {
@@ -9979,7 +9979,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.003910865
+                "logprob": -0.0027044234
             }
         },
         "score": {
@@ -10065,7 +10065,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -1.1994775e-05
+                "logprob": -4.00813e-06
             },
             "im2": {
                 "answer": {
@@ -10073,7 +10073,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.080648154
+                "logprob": -0.08040806
             }
         },
         "score": {
@@ -10159,7 +10159,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -7.89631e-07
+                "logprob": -9.0883464e-07
             },
             "im2": {
                 "answer": {
@@ -10167,7 +10167,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -1.6286107e-05
+                "logprob": -1.3544423e-05
             }
         },
         "score": {
@@ -10253,7 +10253,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.0142630525
+                "logprob": -0.0002974472
             },
             "im2": {
                 "answer": {
@@ -10261,7 +10261,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.011223006
+                "logprob": -0.011227368
             }
         },
         "score": {
@@ -10347,7 +10347,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.029790418
+                "logprob": -0.029845947
             },
             "im2": {
                 "answer": {
@@ -10355,7 +10355,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.07268166
+                "logprob": -0.101007394
             }
         },
         "score": {
@@ -10441,7 +10441,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.058878608
+                "logprob": -0.1285986
             },
             "im2": {
                 "answer": {
@@ -10449,7 +10449,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.0790798
+                "logprob": -0.006725788
             }
         },
         "score": {
@@ -10535,43 +10535,19 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.0052377875
+                "logprob": -0.5759451
             },
             "im2": {
                 "answer": {
-                    "full_answer": "B",
-                    "A": 0,
-                    "B": 10
+                    "full_answer": "A",
+                    "A": 10,
+                    "B": 0
                 },
-                "logprob": -0.4867619
+                "logprob": -0.7373092
             }
         },
         "score": {
             "set_score": {
-                "Cerebral": 0,
-                "Vascular": 0,
-                "Head and Neck": 0,
-                "Spinal": 0,
-                "Musculoskeletal": 2,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 1
-            },
-            "individual_score": {
-                "Cerebral": 0,
-                "Vascular": 0,
-                "Head and Neck": 0,
-                "Spinal": 0,
-                "Musculoskeletal": 2,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 2
-            },
-            "confused": {
                 "Cerebral": 0,
                 "Vascular": 0,
                 "Head and Neck": 0,
@@ -10582,6 +10558,30 @@
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
                 "total": 0
+            },
+            "individual_score": {
+                "Cerebral": 0,
+                "Vascular": 0,
+                "Head and Neck": 0,
+                "Spinal": 0,
+                "Musculoskeletal": 1,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 1
+            },
+            "confused": {
+                "Cerebral": 0,
+                "Vascular": 0,
+                "Head and Neck": 0,
+                "Spinal": 0,
+                "Musculoskeletal": 2,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 1
             },
             "invalid": {
                 "Cerebral": 0,
@@ -10612,12 +10612,12 @@
                 "Vascular": 0,
                 "Head and Neck": 0,
                 "Spinal": 0,
-                "Musculoskeletal": 2,
+                "Musculoskeletal": 0,
                 "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 1
+                "total": 0
             }
         }
     },
@@ -10629,7 +10629,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.0034810398
+                "logprob": -0.0036860558
             },
             "im2": {
                 "answer": {
@@ -10637,7 +10637,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.00097077567
+                "logprob": -0.00096708396
             }
         },
         "score": {
@@ -10723,7 +10723,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.0010086347
+                "logprob": -0.00042745075
             },
             "im2": {
                 "answer": {
@@ -10731,7 +10731,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.0015667574
+                "logprob": -0.00096708396
             }
         },
         "score": {
@@ -10817,7 +10817,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -3.0545007e-06
+                "logprob": -7.822647e-06
             },
             "im2": {
                 "answer": {
@@ -10825,7 +10825,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -6.6306106e-06
+                "logprob": -2.8160932e-06
             }
         },
         "score": {
@@ -10911,7 +10911,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.1603927
+                "logprob": -0.2540524
             },
             "im2": {
                 "answer": {
@@ -10919,7 +10919,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.20230746
+                "logprob": -0.10024064
             }
         },
         "score": {
@@ -11005,7 +11005,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.00055482076
+                "logprob": -0.018187523
             },
             "im2": {
                 "answer": {
@@ -11013,7 +11013,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.20210917
+                "logprob": -0.06317928
             }
         },
         "score": {
@@ -11099,7 +11099,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -2.3392786e-06
+                "logprob": -2.9352968e-06
             },
             "im2": {
                 "answer": {
@@ -11107,7 +11107,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.005147062
+                "logprob": -0.13641088
             }
         },
         "score": {
@@ -11193,7 +11193,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.39010227
+                "logprob": -0.1606785
             },
             "im2": {
                 "answer": {
@@ -11201,7 +11201,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.0009293294
+                "logprob": -0.016323382
             }
         },
         "score": {
@@ -11287,7 +11287,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.0111211585
+                "logprob": -0.018165162
             },
             "im2": {
                 "answer": {
@@ -11295,7 +11295,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.08159733
+                "logprob": -0.019181693
             }
         },
         "score": {
@@ -11381,7 +11381,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.004112473
+                "logprob": -0.00043794067
             },
             "im2": {
                 "answer": {
@@ -11389,7 +11389,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.0001506213
+                "logprob": -9.4245304e-05
             }
         },
         "score": {
@@ -11475,7 +11475,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.00096874917
+                "logprob": -0.0019891863
             },
             "im2": {
                 "answer": {
@@ -11483,7 +11483,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.012207991
+                "logprob": -0.012323035
             }
         },
         "score": {
@@ -11569,7 +11569,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.0053160544
+                "logprob": -0.030675752
             },
             "im2": {
                 "answer": {
@@ -11577,7 +11577,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.13520688
+                "logprob": -0.42978263
             }
         },
         "score": {
@@ -11663,7 +11663,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.018802023
+                "logprob": -0.06453371
             },
             "im2": {
                 "answer": {
@@ -11671,7 +11671,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.06403526
+                "logprob": -0.08150383
             }
         },
         "score": {
@@ -11757,7 +11757,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.25196114
+                "logprob": -0.02326027
             },
             "im2": {
                 "answer": {
@@ -11765,7 +11765,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.12693557
+                "logprob": -0.0024821963
             }
         },
         "score": {
@@ -11851,7 +11851,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.47418615
+                "logprob": -0.31338328
             },
             "im2": {
                 "answer": {
@@ -11859,7 +11859,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.12778768
+                "logprob": -0.20189655
             }
         },
         "score": {
@@ -11945,7 +11945,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.0029124543
+                "logprob": -0.0032463972
             },
             "im2": {
                 "answer": {
@@ -11953,7 +11953,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.00031687375
+                "logprob": -0.00010664248
             }
         },
         "score": {
@@ -12039,7 +12039,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.00053897407
+                "logprob": -0.001030427
             },
             "im2": {
                 "answer": {
@@ -12047,7 +12047,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.00034928982
+                "logprob": -0.00016849818
             }
         },
         "score": {
@@ -12141,7 +12141,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.00014156183
+                "logprob": -8.804671e-05
             }
         },
         "score": {
@@ -12227,7 +12227,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.004027938
+                "logprob": -0.013075523
             },
             "im2": {
                 "answer": {
@@ -12235,7 +12235,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.054268338
+                "logprob": -0.012654677
             }
         },
         "score": {
@@ -12317,11 +12317,11 @@
         "answer": {
             "im1": {
                 "answer": {
-                    "full_answer": "B",
-                    "A": 0,
-                    "B": 10
+                    "full_answer": "A",
+                    "A": 10,
+                    "B": 0
                 },
-                "logprob": -0.9601511
+                "logprob": -0.39160275
             },
             "im2": {
                 "answer": {
@@ -12329,35 +12329,11 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.010178164
+                "logprob": -0.26684025
             }
         },
         "score": {
             "set_score": {
-                "Cerebral": 0,
-                "Vascular": 2,
-                "Head and Neck": 0,
-                "Spinal": 0,
-                "Musculoskeletal": 0,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 1
-            },
-            "individual_score": {
-                "Cerebral": 0,
-                "Vascular": 2,
-                "Head and Neck": 0,
-                "Spinal": 0,
-                "Musculoskeletal": 0,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 2
-            },
-            "confused": {
                 "Cerebral": 0,
                 "Vascular": 0,
                 "Head and Neck": 0,
@@ -12368,6 +12344,30 @@
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
                 "total": 0
+            },
+            "individual_score": {
+                "Cerebral": 0,
+                "Vascular": 1,
+                "Head and Neck": 0,
+                "Spinal": 0,
+                "Musculoskeletal": 0,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 1
+            },
+            "confused": {
+                "Cerebral": 0,
+                "Vascular": 2,
+                "Head and Neck": 0,
+                "Spinal": 0,
+                "Musculoskeletal": 0,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 1
             },
             "invalid": {
                 "Cerebral": 0,
@@ -12395,7 +12395,7 @@
             },
             "valid_pairs": {
                 "Cerebral": 0,
-                "Vascular": 2,
+                "Vascular": 0,
                 "Head and Neck": 0,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
@@ -12403,7 +12403,7 @@
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 1
+                "total": 0
             }
         }
     },
@@ -12415,7 +12415,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.0016872011
+                "logprob": -0.0007198188
             },
             "im2": {
                 "answer": {
@@ -12423,7 +12423,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.0052368375
+                "logprob": -0.0052370755
             }
         },
         "score": {
@@ -12509,7 +12509,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.00065739284
+                "logprob": -0.00046463127
             },
             "im2": {
                 "answer": {
@@ -12517,7 +12517,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.0009514793
+                "logprob": -0.0007338666
             }
         },
         "score": {
@@ -12603,7 +12603,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.00020663968
+                "logprob": -0.00046284322
             },
             "im2": {
                 "answer": {
@@ -12611,7 +12611,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.023844672
+                "logprob": -0.023723833
             }
         },
         "score": {
@@ -12697,7 +12697,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.00032247265
+                "logprob": -0.00047785923
             },
             "im2": {
                 "answer": {
@@ -12705,7 +12705,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.12910289
+                "logprob": -0.31795633
             }
         },
         "score": {
@@ -12791,7 +12791,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.011364567
+                "logprob": -0.005529951
             },
             "im2": {
                 "answer": {
@@ -12799,7 +12799,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.00018018014
+                "logprob": -0.00036537863
             }
         },
         "score": {
@@ -12881,11 +12881,11 @@
         "answer": {
             "im1": {
                 "answer": {
-                    "full_answer": "I'm unable to interpret the image.",
-                    "A": 0,
+                    "full_answer": "A",
+                    "A": 10,
                     "B": 0
                 },
-                "logprob": -0.112559244
+                "logprob": -0.63458526
             },
             "im2": {
                 "answer": {
@@ -12893,7 +12893,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.2057868
+                "logprob": -0.2070028
             }
         },
         "score": {
@@ -12930,8 +12930,8 @@
                 "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 0
+                "Nuclear Medicine": 2,
+                "total": 1
             },
             "invalid": {
                 "Cerebral": 0,
@@ -12942,8 +12942,8 @@
                 "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
-                "Nuclear Medicine": 1,
-                "total": 1
+                "Nuclear Medicine": 0,
+                "total": 0
             },
             "valids": {
                 "Cerebral": 0,
@@ -12954,8 +12954,8 @@
                 "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 0
+                "Nuclear Medicine": 2,
+                "total": 1
             },
             "valid_pairs": {
                 "Cerebral": 0,
@@ -12975,11 +12975,11 @@
         "answer": {
             "im1": {
                 "answer": {
-                    "full_answer": "A",
-                    "A": 10,
-                    "B": 0
+                    "full_answer": "B",
+                    "A": 0,
+                    "B": 10
                 },
-                "logprob": -0.1279293
+                "logprob": -0.12720747
             },
             "im2": {
                 "answer": {
@@ -12987,35 +12987,11 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.00032688316
+                "logprob": -0.00023131118
             }
         },
         "score": {
             "set_score": {
-                "Cerebral": 0,
-                "Vascular": 0,
-                "Head and Neck": 0,
-                "Spinal": 0,
-                "Musculoskeletal": 0,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 0
-            },
-            "individual_score": {
-                "Cerebral": 0,
-                "Vascular": 1,
-                "Head and Neck": 0,
-                "Spinal": 0,
-                "Musculoskeletal": 0,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 1,
-                "Nuclear Medicine": 0,
-                "total": 1
-            },
-            "confused": {
                 "Cerebral": 0,
                 "Vascular": 2,
                 "Head and Neck": 0,
@@ -13026,6 +13002,30 @@
                 "Pulmonary": 2,
                 "Nuclear Medicine": 0,
                 "total": 1
+            },
+            "individual_score": {
+                "Cerebral": 0,
+                "Vascular": 2,
+                "Head and Neck": 0,
+                "Spinal": 0,
+                "Musculoskeletal": 0,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 2,
+                "Nuclear Medicine": 0,
+                "total": 2
+            },
+            "confused": {
+                "Cerebral": 0,
+                "Vascular": 0,
+                "Head and Neck": 0,
+                "Spinal": 0,
+                "Musculoskeletal": 0,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 0
             },
             "invalid": {
                 "Cerebral": 0,
@@ -13053,15 +13053,15 @@
             },
             "valid_pairs": {
                 "Cerebral": 0,
-                "Vascular": 0,
+                "Vascular": 2,
                 "Head and Neck": 0,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
                 "Gastrointestinal": 0,
-                "Pulmonary": 0,
+                "Pulmonary": 2,
                 "Nuclear Medicine": 0,
-                "total": 0
+                "total": 1
             }
         }
     },
@@ -13081,7 +13081,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.0041347994
+                "logprob": -0.0025316642
             }
         },
         "score": {
@@ -13167,7 +13167,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.018277422
+                "logprob": -0.014289734
             },
             "im2": {
                 "answer": {
@@ -13175,7 +13175,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.0052482258
+                "logprob": -0.005248345
             }
         },
         "score": {
@@ -13261,7 +13261,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.3869971
+                "logprob": -0.062672645
             },
             "im2": {
                 "answer": {
@@ -13269,7 +13269,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.25724196
+                "logprob": -0.105050676
             }
         },
         "score": {
@@ -13355,7 +13355,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.31329647
+                "logprob": -0.25196597
             },
             "im2": {
                 "answer": {
@@ -13449,7 +13449,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.0005569628
+                "logprob": -0.00049167214
             },
             "im2": {
                 "answer": {
@@ -13457,7 +13457,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.02011214
+                "logprob": -0.051111035
             }
         },
         "score": {
@@ -13543,15 +13543,15 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.00020663968
+                "logprob": -0.00012678056
             },
             "im2": {
                 "answer": {
-                    "full_answer": "B",
-                    "A": 0,
-                    "B": 10
+                    "full_answer": "A",
+                    "A": 10,
+                    "B": 0
                 },
-                "logprob": -0.1269825
+                "logprob": -0.38709313
             }
         },
         "score": {
@@ -13575,9 +13575,9 @@
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
                 "Gastrointestinal": 0,
-                "Pulmonary": 0,
+                "Pulmonary": 1,
                 "Nuclear Medicine": 0,
-                "total": 0
+                "total": 1
             },
             "confused": {
                 "Cerebral": 0,
@@ -13587,9 +13587,9 @@
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
                 "Gastrointestinal": 0,
-                "Pulmonary": 0,
+                "Pulmonary": 2,
                 "Nuclear Medicine": 0,
-                "total": 0
+                "total": 1
             },
             "invalid": {
                 "Cerebral": 0,
@@ -13623,9 +13623,9 @@
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
                 "Gastrointestinal": 0,
-                "Pulmonary": 2,
+                "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 1
+                "total": 0
             }
         }
     },
@@ -13637,7 +13637,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.0381551
+                "logprob": -0.008419418
             },
             "im2": {
                 "answer": {
@@ -13731,7 +13731,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -2.3319124e-05
+                "logprob": -2.2246291e-05
             },
             "im2": {
                 "answer": {
@@ -13825,7 +13825,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.0011915372
+                "logprob": -0.0029419248
             },
             "im2": {
                 "answer": {
@@ -13833,7 +13833,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -9.72254e-05
+                "logprob": -0.00027087211
             }
         },
         "score": {
@@ -13919,7 +13919,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.000104377614
+                "logprob": -0.00014036978
             },
             "im2": {
                 "answer": {
@@ -13927,7 +13927,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.000573644
+                "logprob": -0.00054528815
             }
         },
         "score": {
@@ -14013,7 +14013,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.25212553
+                "logprob": -0.048798785
             },
             "im2": {
                 "answer": {
@@ -14021,7 +14021,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.0013141667
+                "logprob": -0.04470406
             }
         },
         "score": {
@@ -14107,7 +14107,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.023250252
+                "logprob": -0.03806318
             },
             "im2": {
                 "answer": {
@@ -14115,7 +14115,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -5.8603408e-05
+                "logprob": -0.00026443513
             }
         },
         "score": {
@@ -14197,11 +14197,11 @@
         "answer": {
             "im1": {
                 "answer": {
-                    "full_answer": "B",
-                    "A": 0,
-                    "B": 10
+                    "full_answer": "A",
+                    "A": 10,
+                    "B": 0
                 },
-                "logprob": -0.21673942
+                "logprob": -0.48577994
             },
             "im2": {
                 "answer": {
@@ -14209,7 +14209,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.1615497
+                "logprob": -0.16300108
             }
         },
         "score": {
@@ -14234,8 +14234,8 @@
                 "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 0
+                "Nuclear Medicine": 1,
+                "total": 1
             },
             "confused": {
                 "Cerebral": 0,
@@ -14246,8 +14246,8 @@
                 "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 0
+                "Nuclear Medicine": 2,
+                "total": 1
             },
             "invalid": {
                 "Cerebral": 0,
@@ -14282,8 +14282,8 @@
                 "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
-                "Nuclear Medicine": 2,
-                "total": 1
+                "Nuclear Medicine": 0,
+                "total": 0
             }
         }
     },
@@ -14295,7 +14295,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.0039454177
+                "logprob": -0.0034349428
             },
             "im2": {
                 "answer": {
@@ -14303,7 +14303,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.09828349
+                "logprob": -0.09828328
             }
         },
         "score": {
@@ -14385,11 +14385,11 @@
         "answer": {
             "im1": {
                 "answer": {
-                    "full_answer": "A",
-                    "A": 10,
+                    "full_answer": "I'm sorry, I can't help with that.",
+                    "A": 0,
                     "B": 0
                 },
-                "logprob": -0.12311913
+                "logprob": -0.06995789
             },
             "im2": {
                 "answer": {
@@ -14397,7 +14397,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.059455115
+                "logprob": -0.047866713
             }
         },
         "score": {
@@ -14416,28 +14416,16 @@
             "individual_score": {
                 "Cerebral": 0,
                 "Vascular": 0,
-                "Head and Neck": 1,
+                "Head and Neck": 0,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 1
+                "total": 0
             },
             "confused": {
-                "Cerebral": 1,
-                "Vascular": 0,
-                "Head and Neck": 2,
-                "Spinal": 0,
-                "Musculoskeletal": 0,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 1
-            },
-            "invalid": {
                 "Cerebral": 0,
                 "Vascular": 0,
                 "Head and Neck": 0,
@@ -14449,10 +14437,10 @@
                 "Nuclear Medicine": 0,
                 "total": 0
             },
-            "valids": {
-                "Cerebral": 1,
+            "invalid": {
+                "Cerebral": 0,
                 "Vascular": 0,
-                "Head and Neck": 2,
+                "Head and Neck": 1,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
@@ -14460,6 +14448,18 @@
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
                 "total": 1
+            },
+            "valids": {
+                "Cerebral": 0,
+                "Vascular": 0,
+                "Head and Neck": 0,
+                "Spinal": 0,
+                "Musculoskeletal": 0,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 0
             },
             "valid_pairs": {
                 "Cerebral": 0,
@@ -14483,7 +14483,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.49998212
+                "logprob": -0.49953362
             },
             "im2": {
                 "answer": {
@@ -14491,7 +14491,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.004022953
+                "logprob": -0.010240934
             }
         },
         "score": {
@@ -14585,7 +14585,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.008757685
+                "logprob": -0.10180252
             }
         },
         "score": {
@@ -14671,7 +14671,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.61766607
+                "logprob": -0.4766459
             },
             "im2": {
                 "answer": {
@@ -14765,7 +14765,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -3.9411618e-05
+                "logprob": -0.0003548887
             },
             "im2": {
                 "answer": {
@@ -14773,7 +14773,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.0009830317
+                "logprob": -0.00047642877
             }
         },
         "score": {
@@ -14859,7 +14859,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.7015978
+                "logprob": -0.10951451
             },
             "im2": {
                 "answer": {
@@ -14867,7 +14867,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -6.754368e-05
+                "logprob": -1.2590794e-05
             }
         },
         "score": {
@@ -14949,19 +14949,19 @@
         "answer": {
             "im1": {
                 "answer": {
-                    "full_answer": "A",
-                    "A": 10,
-                    "B": 0
+                    "full_answer": "B",
+                    "A": 0,
+                    "B": 10
                 },
-                "logprob": -0.2757651
+                "logprob": -0.58655226
             },
             "im2": {
                 "answer": {
-                    "full_answer": "I'm unable to view or interpret images.",
+                    "full_answer": "B",
                     "A": 0,
-                    "B": 0
+                    "B": 10
                 },
-                "logprob": -0.6230217
+                "logprob": -0.38838997
             }
         },
         "score": {
@@ -14992,19 +14992,7 @@
             "confused": {
                 "Cerebral": 0,
                 "Vascular": 0,
-                "Head and Neck": 0,
-                "Spinal": 0,
-                "Musculoskeletal": 0,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 0
-            },
-            "invalid": {
-                "Cerebral": 0,
-                "Vascular": 0,
-                "Head and Neck": 1,
+                "Head and Neck": 2,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
@@ -15013,7 +15001,7 @@
                 "Nuclear Medicine": 0,
                 "total": 1
             },
-            "valids": {
+            "invalid": {
                 "Cerebral": 0,
                 "Vascular": 0,
                 "Head and Neck": 0,
@@ -15024,6 +15012,18 @@
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
                 "total": 0
+            },
+            "valids": {
+                "Cerebral": 0,
+                "Vascular": 0,
+                "Head and Neck": 2,
+                "Spinal": 0,
+                "Musculoskeletal": 0,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 1
             },
             "valid_pairs": {
                 "Cerebral": 0,
@@ -15047,7 +15047,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.0016387657
+                "logprob": -0.00065894244
             },
             "im2": {
                 "answer": {
@@ -15055,7 +15055,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.007232947
+                "logprob": -0.006231891
             }
         },
         "score": {
@@ -15141,15 +15141,15 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.012530721
+                "logprob": -0.012556266
             },
             "im2": {
                 "answer": {
-                    "full_answer": "I'm sorry, I can't determine the answer from the image.",
-                    "A": 0,
+                    "full_answer": "A",
+                    "A": 10,
                     "B": 0
                 },
-                "logprob": -0.46186978
+                "logprob": -0.6192006
             }
         },
         "score": {
@@ -15168,30 +15168,6 @@
             "individual_score": {
                 "Cerebral": 0,
                 "Vascular": 0,
-                "Head and Neck": 0,
-                "Spinal": 0,
-                "Musculoskeletal": 0,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 0
-            },
-            "confused": {
-                "Cerebral": 0,
-                "Vascular": 0,
-                "Head and Neck": 0,
-                "Spinal": 0,
-                "Musculoskeletal": 0,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 0
-            },
-            "invalid": {
-                "Cerebral": 0,
-                "Vascular": 0,
                 "Head and Neck": 1,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
@@ -15201,7 +15177,19 @@
                 "Nuclear Medicine": 0,
                 "total": 1
             },
-            "valids": {
+            "confused": {
+                "Cerebral": 0,
+                "Vascular": 0,
+                "Head and Neck": 2,
+                "Spinal": 0,
+                "Musculoskeletal": 0,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 1
+            },
+            "invalid": {
                 "Cerebral": 0,
                 "Vascular": 0,
                 "Head and Neck": 0,
@@ -15212,6 +15200,18 @@
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
                 "total": 0
+            },
+            "valids": {
+                "Cerebral": 0,
+                "Vascular": 0,
+                "Head and Neck": 2,
+                "Spinal": 0,
+                "Musculoskeletal": 0,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 1
             },
             "valid_pairs": {
                 "Cerebral": 0,
@@ -15235,7 +15235,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.0067197597
+                "logprob": -0.006719991
             },
             "im2": {
                 "answer": {
@@ -15329,7 +15329,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.016401015
+                "logprob": -0.01248258
             },
             "im2": {
                 "answer": {
@@ -15337,7 +15337,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.00147118
+                "logprob": -0.0027116763
             }
         },
         "score": {
@@ -15423,7 +15423,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.06578653
+                "logprob": -0.09027631
             },
             "im2": {
                 "answer": {
@@ -15431,7 +15431,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.0006525091
+                "logprob": -0.00050835335
             }
         },
         "score": {
@@ -15517,7 +15517,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.20729877
+                "logprob": -0.12905322
             },
             "im2": {
                 "answer": {
@@ -15525,7 +15525,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.25355667
+                "logprob": -0.39506876
             }
         },
         "score": {
@@ -15611,22 +15611,34 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.0011842768
+                "logprob": -0.00026479273
             },
             "im2": {
                 "answer": {
-                    "full_answer": "A",
-                    "A": 10,
+                    "full_answer": "I'm unable to view or interpret images directly. Please consult a medical professional for image analysis.",
+                    "A": 0,
                     "B": 0
                 },
-                "logprob": -0.12682752
+                "logprob": -0.33617118
             }
         },
         "score": {
             "set_score": {
+                "Cerebral": 0,
+                "Vascular": 0,
+                "Head and Neck": 0,
+                "Spinal": 0,
+                "Musculoskeletal": 0,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 0
+            },
+            "individual_score": {
                 "Cerebral": 1,
                 "Vascular": 0,
-                "Head and Neck": 1,
+                "Head and Neck": 0,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
@@ -15634,18 +15646,6 @@
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
                 "total": 1
-            },
-            "individual_score": {
-                "Cerebral": 1,
-                "Vascular": 0,
-                "Head and Neck": 1,
-                "Spinal": 0,
-                "Musculoskeletal": 0,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 2
             },
             "confused": {
                 "Cerebral": 0,
@@ -15662,6 +15662,18 @@
             "invalid": {
                 "Cerebral": 0,
                 "Vascular": 0,
+                "Head and Neck": 1,
+                "Spinal": 0,
+                "Musculoskeletal": 0,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 1
+            },
+            "valids": {
+                "Cerebral": 0,
+                "Vascular": 0,
                 "Head and Neck": 0,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
@@ -15671,29 +15683,17 @@
                 "Nuclear Medicine": 0,
                 "total": 0
             },
-            "valids": {
-                "Cerebral": 1,
-                "Vascular": 0,
-                "Head and Neck": 1,
-                "Spinal": 0,
-                "Musculoskeletal": 0,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 1
-            },
             "valid_pairs": {
-                "Cerebral": 1,
+                "Cerebral": 0,
                 "Vascular": 0,
-                "Head and Neck": 1,
+                "Head and Neck": 0,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
                 "Gastrointestinal": 0,
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
-                "total": 1
+                "total": 0
             }
         }
     },
@@ -15705,7 +15705,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.030242952
+                "logprob": -0.004258377
             },
             "im2": {
                 "answer": {
@@ -15713,7 +15713,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.00041386887
+                "logprob": -0.0010546034
             }
         },
         "score": {
@@ -15799,7 +15799,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.3132671
+                "logprob": -0.38687208
             },
             "im2": {
                 "answer": {
@@ -15807,7 +15807,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.048886426
+                "logprob": -0.12695846
             }
         },
         "score": {
@@ -15893,7 +15893,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.39304942
+                "logprob": -0.39184073
             },
             "im2": {
                 "answer": {
@@ -15901,7 +15901,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.00053587474
+                "logprob": -0.00010747691
             }
         },
         "score": {
@@ -15987,15 +15987,15 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.3094291
+                "logprob": -0.38329095
             },
             "im2": {
                 "answer": {
-                    "full_answer": "A",
-                    "A": 10,
+                    "full_answer": "I'm unable to interpret images.",
+                    "A": 0,
                     "B": 0
                 },
-                "logprob": -0.66793644
+                "logprob": -0.58188325
             }
         },
         "score": {
@@ -16012,30 +16012,6 @@
                 "total": 0
             },
             "individual_score": {
-                "Cerebral": 1,
-                "Vascular": 0,
-                "Head and Neck": 1,
-                "Spinal": 0,
-                "Musculoskeletal": 0,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 1
-            },
-            "confused": {
-                "Cerebral": 2,
-                "Vascular": 0,
-                "Head and Neck": 1,
-                "Spinal": 0,
-                "Musculoskeletal": 0,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 1
-            },
-            "invalid": {
                 "Cerebral": 0,
                 "Vascular": 0,
                 "Head and Neck": 0,
@@ -16047,8 +16023,20 @@
                 "Nuclear Medicine": 0,
                 "total": 0
             },
-            "valids": {
-                "Cerebral": 2,
+            "confused": {
+                "Cerebral": 0,
+                "Vascular": 0,
+                "Head and Neck": 0,
+                "Spinal": 0,
+                "Musculoskeletal": 0,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 0
+            },
+            "invalid": {
+                "Cerebral": 1,
                 "Vascular": 0,
                 "Head and Neck": 1,
                 "Spinal": 0,
@@ -16058,6 +16046,18 @@
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
                 "total": 1
+            },
+            "valids": {
+                "Cerebral": 0,
+                "Vascular": 0,
+                "Head and Neck": 0,
+                "Spinal": 0,
+                "Musculoskeletal": 0,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 0
             },
             "valid_pairs": {
                 "Cerebral": 0,
@@ -16077,11 +16077,11 @@
         "answer": {
             "im1": {
                 "answer": {
-                    "full_answer": "I'm sorry, I can't determine the medical condition from the image.",
+                    "full_answer": "B",
                     "A": 0,
-                    "B": 0
+                    "B": 10
                 },
-                "logprob": -0.48580226
+                "logprob": -0.024970343
             },
             "im2": {
                 "answer": {
@@ -16089,7 +16089,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.51803327
+                "logprob": -0.3523561
             }
         },
         "score": {
@@ -16120,19 +16120,7 @@
             "confused": {
                 "Cerebral": 0,
                 "Vascular": 0,
-                "Head and Neck": 0,
-                "Spinal": 0,
-                "Musculoskeletal": 0,
-                "Cardiac": 0,
-                "Gastrointestinal": 0,
-                "Pulmonary": 0,
-                "Nuclear Medicine": 0,
-                "total": 0
-            },
-            "invalid": {
-                "Cerebral": 0,
-                "Vascular": 0,
-                "Head and Neck": 1,
+                "Head and Neck": 2,
                 "Spinal": 0,
                 "Musculoskeletal": 0,
                 "Cardiac": 0,
@@ -16141,7 +16129,7 @@
                 "Nuclear Medicine": 0,
                 "total": 1
             },
-            "valids": {
+            "invalid": {
                 "Cerebral": 0,
                 "Vascular": 0,
                 "Head and Neck": 0,
@@ -16152,6 +16140,18 @@
                 "Pulmonary": 0,
                 "Nuclear Medicine": 0,
                 "total": 0
+            },
+            "valids": {
+                "Cerebral": 0,
+                "Vascular": 0,
+                "Head and Neck": 2,
+                "Spinal": 0,
+                "Musculoskeletal": 0,
+                "Cardiac": 0,
+                "Gastrointestinal": 0,
+                "Pulmonary": 0,
+                "Nuclear Medicine": 0,
+                "total": 1
             },
             "valid_pairs": {
                 "Cerebral": 0,
@@ -16175,7 +16175,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.005272534
+                "logprob": -0.005256526
             },
             "im2": {
                 "answer": {
@@ -16183,7 +16183,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.004461805
+                "logprob": -0.0014061864
             }
         },
         "score": {
@@ -16269,7 +16269,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.0112543665
+                "logprob": -0.08294989
             },
             "im2": {
                 "answer": {
@@ -16277,7 +16277,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.08205461
+                "logprob": -0.08207976
             }
         },
         "score": {
@@ -16363,7 +16363,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.0003496474
+                "logprob": -0.0057952395
             },
             "im2": {
                 "answer": {
@@ -16371,7 +16371,7 @@
                     "A": 10,
                     "B": 0
                 },
-                "logprob": -0.003923807
+                "logprob": -0.0037045928
             }
         },
         "score": {
@@ -16457,7 +16457,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.00016384924
+                "logprob": -0.00013250235
             },
             "im2": {
                 "answer": {
@@ -16465,7 +16465,7 @@
                     "A": 0,
                     "B": 10
                 },
-                "logprob": -0.0025258416
+                "logprob": -0.004538112
             }
         },
         "score": {
