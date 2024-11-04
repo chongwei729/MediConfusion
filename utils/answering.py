@@ -110,7 +110,15 @@ class BaseAnsweringModel():
                 im2_groundtruth = sample.get("im_2_correct")
                 
                 im1_correct, im1_invalid, im2_correct, im2_invalid, confused = self.get_score(result['answer'], im1_groundtruth, im2_groundtruth)
+         
+                if im1_invalid:
+                    im1_correct = "-"
+                if im2_invalid:
+                    im2_correct = "-"    
                 set_correct = 1 if im1_correct == 1 and im2_correct == 1 else 0
+                if im1_invalid or im2_invalid:
+                    set_correct = "-"
+                
 
     
                 im1_logprob = result["answer"]["im1"].get("logprob", None)  
